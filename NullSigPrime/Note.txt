@@ -1,0 +1,11 @@
+Due to the masses of repetitive code required in dealing with setting
+up and updating the neural network and the time and hassle involved
+with typing them out "by hand," we opted to generate much of the code
+using Python scripts. Unfortunately those scripts couldn't be
+retrieved from the school file server in time, so they will not be
+included in build 1.0.0 of the project. Hopefully they will be added
+in future.
+
+Update:
+Python code added. It generates a text file divided by spaces, each 
+section of which can be copied into the file.

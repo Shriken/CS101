@@ -1,0 +1,2679 @@
+set nextHL-0 HL-1 * CLL-0-1 + HL-2 * CLL-0-2 + HL-3 * CLL-0-3 + HL-4 * CLL-0-4 + HL-5 * CLL-0-5 + HL-6 * CLL-0-6 + HL-7 * CLL-0-7 + HL-8 * CLL-0-8 + HL-9 * CLL-0-9 + HL-10 * CLL-0-10 + HL-11 * CLL-0-11 + HL-12 * CLL-0-12 + HL-13 * CLL-0-13 + HL-14 * CLL-0-14 + HL-15 * CLL-0-15 + HL-16 * CLL-0-16 + HL-17 * CLL-0-17 + HL-18 * CLL-0-18 + HL-19 * CLL-0-19 + HL-20 * CLL-0-20 + HL-21 * CLL-0-21 + HL-22 * CLL-0-22 + HL-23 * CLL-0-23 + HL-24 * CLL-0-24 + HL-25 * CLL-0-25 + HL-26 * CLL-0-26 + HL-27 * CLL-0-27 + HL-28 * CLL-0-28 + HL-29 * CLL-0-29 +  BW-0
+set nextHL-1 HL-0 * CLL-1-0 + HL-2 * CLL-1-2 + HL-3 * CLL-1-3 + HL-4 * CLL-1-4 + HL-5 * CLL-1-5 + HL-6 * CLL-1-6 + HL-7 * CLL-1-7 + HL-8 * CLL-1-8 + HL-9 * CLL-1-9 + HL-10 * CLL-1-10 + HL-11 * CLL-1-11 + HL-12 * CLL-1-12 + HL-13 * CLL-1-13 + HL-14 * CLL-1-14 + HL-15 * CLL-1-15 + HL-16 * CLL-1-16 + HL-17 * CLL-1-17 + HL-18 * CLL-1-18 + HL-19 * CLL-1-19 + HL-20 * CLL-1-20 + HL-21 * CLL-1-21 + HL-22 * CLL-1-22 + HL-23 * CLL-1-23 + HL-24 * CLL-1-24 + HL-25 * CLL-1-25 + HL-26 * CLL-1-26 + HL-27 * CLL-1-27 + HL-28 * CLL-1-28 + HL-29 * CLL-1-29 +  BW-1
+set nextHL-2 HL-0 * CLL-2-0 + HL-1 * CLL-2-1 + HL-3 * CLL-2-3 + HL-4 * CLL-2-4 + HL-5 * CLL-2-5 + HL-6 * CLL-2-6 + HL-7 * CLL-2-7 + HL-8 * CLL-2-8 + HL-9 * CLL-2-9 + HL-10 * CLL-2-10 + HL-11 * CLL-2-11 + HL-12 * CLL-2-12 + HL-13 * CLL-2-13 + HL-14 * CLL-2-14 + HL-15 * CLL-2-15 + HL-16 * CLL-2-16 + HL-17 * CLL-2-17 + HL-18 * CLL-2-18 + HL-19 * CLL-2-19 + HL-20 * CLL-2-20 + HL-21 * CLL-2-21 + HL-22 * CLL-2-22 + HL-23 * CLL-2-23 + HL-24 * CLL-2-24 + HL-25 * CLL-2-25 + HL-26 * CLL-2-26 + HL-27 * CLL-2-27 + HL-28 * CLL-2-28 + HL-29 * CLL-2-29 +  BW-2
+set nextHL-3 HL-0 * CLL-3-0 + HL-1 * CLL-3-1 + HL-2 * CLL-3-2 + HL-4 * CLL-3-4 + HL-5 * CLL-3-5 + HL-6 * CLL-3-6 + HL-7 * CLL-3-7 + HL-8 * CLL-3-8 + HL-9 * CLL-3-9 + HL-10 * CLL-3-10 + HL-11 * CLL-3-11 + HL-12 * CLL-3-12 + HL-13 * CLL-3-13 + HL-14 * CLL-3-14 + HL-15 * CLL-3-15 + HL-16 * CLL-3-16 + HL-17 * CLL-3-17 + HL-18 * CLL-3-18 + HL-19 * CLL-3-19 + HL-20 * CLL-3-20 + HL-21 * CLL-3-21 + HL-22 * CLL-3-22 + HL-23 * CLL-3-23 + HL-24 * CLL-3-24 + HL-25 * CLL-3-25 + HL-26 * CLL-3-26 + HL-27 * CLL-3-27 + HL-28 * CLL-3-28 + HL-29 * CLL-3-29 +  BW-3
+set nextHL-4 HL-0 * CLL-4-0 + HL-1 * CLL-4-1 + HL-2 * CLL-4-2 + HL-3 * CLL-4-3 + HL-5 * CLL-4-5 + HL-6 * CLL-4-6 + HL-7 * CLL-4-7 + HL-8 * CLL-4-8 + HL-9 * CLL-4-9 + HL-10 * CLL-4-10 + HL-11 * CLL-4-11 + HL-12 * CLL-4-12 + HL-13 * CLL-4-13 + HL-14 * CLL-4-14 + HL-15 * CLL-4-15 + HL-16 * CLL-4-16 + HL-17 * CLL-4-17 + HL-18 * CLL-4-18 + HL-19 * CLL-4-19 + HL-20 * CLL-4-20 + HL-21 * CLL-4-21 + HL-22 * CLL-4-22 + HL-23 * CLL-4-23 + HL-24 * CLL-4-24 + HL-25 * CLL-4-25 + HL-26 * CLL-4-26 + HL-27 * CLL-4-27 + HL-28 * CLL-4-28 + HL-29 * CLL-4-29 +  BW-4
+set nextHL-5 HL-0 * CLL-5-0 + HL-1 * CLL-5-1 + HL-2 * CLL-5-2 + HL-3 * CLL-5-3 + HL-4 * CLL-5-4 + HL-6 * CLL-5-6 + HL-7 * CLL-5-7 + HL-8 * CLL-5-8 + HL-9 * CLL-5-9 + HL-10 * CLL-5-10 + HL-11 * CLL-5-11 + HL-12 * CLL-5-12 + HL-13 * CLL-5-13 + HL-14 * CLL-5-14 + HL-15 * CLL-5-15 + HL-16 * CLL-5-16 + HL-17 * CLL-5-17 + HL-18 * CLL-5-18 + HL-19 * CLL-5-19 + HL-20 * CLL-5-20 + HL-21 * CLL-5-21 + HL-22 * CLL-5-22 + HL-23 * CLL-5-23 + HL-24 * CLL-5-24 + HL-25 * CLL-5-25 + HL-26 * CLL-5-26 + HL-27 * CLL-5-27 + HL-28 * CLL-5-28 + HL-29 * CLL-5-29 +  BW-5
+set nextHL-6 HL-0 * CLL-6-0 + HL-1 * CLL-6-1 + HL-2 * CLL-6-2 + HL-3 * CLL-6-3 + HL-4 * CLL-6-4 + HL-5 * CLL-6-5 + HL-7 * CLL-6-7 + HL-8 * CLL-6-8 + HL-9 * CLL-6-9 + HL-10 * CLL-6-10 + HL-11 * CLL-6-11 + HL-12 * CLL-6-12 + HL-13 * CLL-6-13 + HL-14 * CLL-6-14 + HL-15 * CLL-6-15 + HL-16 * CLL-6-16 + HL-17 * CLL-6-17 + HL-18 * CLL-6-18 + HL-19 * CLL-6-19 + HL-20 * CLL-6-20 + HL-21 * CLL-6-21 + HL-22 * CLL-6-22 + HL-23 * CLL-6-23 + HL-24 * CLL-6-24 + HL-25 * CLL-6-25 + HL-26 * CLL-6-26 + HL-27 * CLL-6-27 + HL-28 * CLL-6-28 + HL-29 * CLL-6-29 +  BW-6
+set nextHL-7 HL-0 * CLL-7-0 + HL-1 * CLL-7-1 + HL-2 * CLL-7-2 + HL-3 * CLL-7-3 + HL-4 * CLL-7-4 + HL-5 * CLL-7-5 + HL-6 * CLL-7-6 + HL-8 * CLL-7-8 + HL-9 * CLL-7-9 + HL-10 * CLL-7-10 + HL-11 * CLL-7-11 + HL-12 * CLL-7-12 + HL-13 * CLL-7-13 + HL-14 * CLL-7-14 + HL-15 * CLL-7-15 + HL-16 * CLL-7-16 + HL-17 * CLL-7-17 + HL-18 * CLL-7-18 + HL-19 * CLL-7-19 + HL-20 * CLL-7-20 + HL-21 * CLL-7-21 + HL-22 * CLL-7-22 + HL-23 * CLL-7-23 + HL-24 * CLL-7-24 + HL-25 * CLL-7-25 + HL-26 * CLL-7-26 + HL-27 * CLL-7-27 + HL-28 * CLL-7-28 + HL-29 * CLL-7-29 +  BW-7
+set nextHL-8 HL-0 * CLL-8-0 + HL-1 * CLL-8-1 + HL-2 * CLL-8-2 + HL-3 * CLL-8-3 + HL-4 * CLL-8-4 + HL-5 * CLL-8-5 + HL-6 * CLL-8-6 + HL-7 * CLL-8-7 + HL-9 * CLL-8-9 + HL-10 * CLL-8-10 + HL-11 * CLL-8-11 + HL-12 * CLL-8-12 + HL-13 * CLL-8-13 + HL-14 * CLL-8-14 + HL-15 * CLL-8-15 + HL-16 * CLL-8-16 + HL-17 * CLL-8-17 + HL-18 * CLL-8-18 + HL-19 * CLL-8-19 + HL-20 * CLL-8-20 + HL-21 * CLL-8-21 + HL-22 * CLL-8-22 + HL-23 * CLL-8-23 + HL-24 * CLL-8-24 + HL-25 * CLL-8-25 + HL-26 * CLL-8-26 + HL-27 * CLL-8-27 + HL-28 * CLL-8-28 + HL-29 * CLL-8-29 +  BW-8
+set nextHL-9 HL-0 * CLL-9-0 + HL-1 * CLL-9-1 + HL-2 * CLL-9-2 + HL-3 * CLL-9-3 + HL-4 * CLL-9-4 + HL-5 * CLL-9-5 + HL-6 * CLL-9-6 + HL-7 * CLL-9-7 + HL-8 * CLL-9-8 + HL-10 * CLL-9-10 + HL-11 * CLL-9-11 + HL-12 * CLL-9-12 + HL-13 * CLL-9-13 + HL-14 * CLL-9-14 + HL-15 * CLL-9-15 + HL-16 * CLL-9-16 + HL-17 * CLL-9-17 + HL-18 * CLL-9-18 + HL-19 * CLL-9-19 + HL-20 * CLL-9-20 + HL-21 * CLL-9-21 + HL-22 * CLL-9-22 + HL-23 * CLL-9-23 + HL-24 * CLL-9-24 + HL-25 * CLL-9-25 + HL-26 * CLL-9-26 + HL-27 * CLL-9-27 + HL-28 * CLL-9-28 + HL-29 * CLL-9-29 +  BW-9
+set nextHL-10 HL-0 * CLL-10-0 + HL-1 * CLL-10-1 + HL-2 * CLL-10-2 + HL-3 * CLL-10-3 + HL-4 * CLL-10-4 + HL-5 * CLL-10-5 + HL-6 * CLL-10-6 + HL-7 * CLL-10-7 + HL-8 * CLL-10-8 + HL-9 * CLL-10-9 + HL-11 * CLL-10-11 + HL-12 * CLL-10-12 + HL-13 * CLL-10-13 + HL-14 * CLL-10-14 + HL-15 * CLL-10-15 + HL-16 * CLL-10-16 + HL-17 * CLL-10-17 + HL-18 * CLL-10-18 + HL-19 * CLL-10-19 + HL-20 * CLL-10-20 + HL-21 * CLL-10-21 + HL-22 * CLL-10-22 + HL-23 * CLL-10-23 + HL-24 * CLL-10-24 + HL-25 * CLL-10-25 + HL-26 * CLL-10-26 + HL-27 * CLL-10-27 + HL-28 * CLL-10-28 + HL-29 * CLL-10-29 +  BW-10
+set nextHL-11 HL-0 * CLL-11-0 + HL-1 * CLL-11-1 + HL-2 * CLL-11-2 + HL-3 * CLL-11-3 + HL-4 * CLL-11-4 + HL-5 * CLL-11-5 + HL-6 * CLL-11-6 + HL-7 * CLL-11-7 + HL-8 * CLL-11-8 + HL-9 * CLL-11-9 + HL-10 * CLL-11-10 + HL-12 * CLL-11-12 + HL-13 * CLL-11-13 + HL-14 * CLL-11-14 + HL-15 * CLL-11-15 + HL-16 * CLL-11-16 + HL-17 * CLL-11-17 + HL-18 * CLL-11-18 + HL-19 * CLL-11-19 + HL-20 * CLL-11-20 + HL-21 * CLL-11-21 + HL-22 * CLL-11-22 + HL-23 * CLL-11-23 + HL-24 * CLL-11-24 + HL-25 * CLL-11-25 + HL-26 * CLL-11-26 + HL-27 * CLL-11-27 + HL-28 * CLL-11-28 + HL-29 * CLL-11-29 +  BW-11
+set nextHL-12 HL-0 * CLL-12-0 + HL-1 * CLL-12-1 + HL-2 * CLL-12-2 + HL-3 * CLL-12-3 + HL-4 * CLL-12-4 + HL-5 * CLL-12-5 + HL-6 * CLL-12-6 + HL-7 * CLL-12-7 + HL-8 * CLL-12-8 + HL-9 * CLL-12-9 + HL-10 * CLL-12-10 + HL-11 * CLL-12-11 + HL-13 * CLL-12-13 + HL-14 * CLL-12-14 + HL-15 * CLL-12-15 + HL-16 * CLL-12-16 + HL-17 * CLL-12-17 + HL-18 * CLL-12-18 + HL-19 * CLL-12-19 + HL-20 * CLL-12-20 + HL-21 * CLL-12-21 + HL-22 * CLL-12-22 + HL-23 * CLL-12-23 + HL-24 * CLL-12-24 + HL-25 * CLL-12-25 + HL-26 * CLL-12-26 + HL-27 * CLL-12-27 + HL-28 * CLL-12-28 + HL-29 * CLL-12-29 +  BW-12
+set nextHL-13 HL-0 * CLL-13-0 + HL-1 * CLL-13-1 + HL-2 * CLL-13-2 + HL-3 * CLL-13-3 + HL-4 * CLL-13-4 + HL-5 * CLL-13-5 + HL-6 * CLL-13-6 + HL-7 * CLL-13-7 + HL-8 * CLL-13-8 + HL-9 * CLL-13-9 + HL-10 * CLL-13-10 + HL-11 * CLL-13-11 + HL-12 * CLL-13-12 + HL-14 * CLL-13-14 + HL-15 * CLL-13-15 + HL-16 * CLL-13-16 + HL-17 * CLL-13-17 + HL-18 * CLL-13-18 + HL-19 * CLL-13-19 + HL-20 * CLL-13-20 + HL-21 * CLL-13-21 + HL-22 * CLL-13-22 + HL-23 * CLL-13-23 + HL-24 * CLL-13-24 + HL-25 * CLL-13-25 + HL-26 * CLL-13-26 + HL-27 * CLL-13-27 + HL-28 * CLL-13-28 + HL-29 * CLL-13-29 +  BW-13
+set nextHL-14 HL-0 * CLL-14-0 + HL-1 * CLL-14-1 + HL-2 * CLL-14-2 + HL-3 * CLL-14-3 + HL-4 * CLL-14-4 + HL-5 * CLL-14-5 + HL-6 * CLL-14-6 + HL-7 * CLL-14-7 + HL-8 * CLL-14-8 + HL-9 * CLL-14-9 + HL-10 * CLL-14-10 + HL-11 * CLL-14-11 + HL-12 * CLL-14-12 + HL-13 * CLL-14-13 + HL-15 * CLL-14-15 + HL-16 * CLL-14-16 + HL-17 * CLL-14-17 + HL-18 * CLL-14-18 + HL-19 * CLL-14-19 + HL-20 * CLL-14-20 + HL-21 * CLL-14-21 + HL-22 * CLL-14-22 + HL-23 * CLL-14-23 + HL-24 * CLL-14-24 + HL-25 * CLL-14-25 + HL-26 * CLL-14-26 + HL-27 * CLL-14-27 + HL-28 * CLL-14-28 + HL-29 * CLL-14-29 +  BW-14
+set nextHL-15 HL-0 * CLL-15-0 + HL-1 * CLL-15-1 + HL-2 * CLL-15-2 + HL-3 * CLL-15-3 + HL-4 * CLL-15-4 + HL-5 * CLL-15-5 + HL-6 * CLL-15-6 + HL-7 * CLL-15-7 + HL-8 * CLL-15-8 + HL-9 * CLL-15-9 + HL-10 * CLL-15-10 + HL-11 * CLL-15-11 + HL-12 * CLL-15-12 + HL-13 * CLL-15-13 + HL-14 * CLL-15-14 + HL-16 * CLL-15-16 + HL-17 * CLL-15-17 + HL-18 * CLL-15-18 + HL-19 * CLL-15-19 + HL-20 * CLL-15-20 + HL-21 * CLL-15-21 + HL-22 * CLL-15-22 + HL-23 * CLL-15-23 + HL-24 * CLL-15-24 + HL-25 * CLL-15-25 + HL-26 * CLL-15-26 + HL-27 * CLL-15-27 + HL-28 * CLL-15-28 + HL-29 * CLL-15-29 +  BW-15
+set nextHL-16 HL-0 * CLL-16-0 + HL-1 * CLL-16-1 + HL-2 * CLL-16-2 + HL-3 * CLL-16-3 + HL-4 * CLL-16-4 + HL-5 * CLL-16-5 + HL-6 * CLL-16-6 + HL-7 * CLL-16-7 + HL-8 * CLL-16-8 + HL-9 * CLL-16-9 + HL-10 * CLL-16-10 + HL-11 * CLL-16-11 + HL-12 * CLL-16-12 + HL-13 * CLL-16-13 + HL-14 * CLL-16-14 + HL-15 * CLL-16-15 + HL-17 * CLL-16-17 + HL-18 * CLL-16-18 + HL-19 * CLL-16-19 + HL-20 * CLL-16-20 + HL-21 * CLL-16-21 + HL-22 * CLL-16-22 + HL-23 * CLL-16-23 + HL-24 * CLL-16-24 + HL-25 * CLL-16-25 + HL-26 * CLL-16-26 + HL-27 * CLL-16-27 + HL-28 * CLL-16-28 + HL-29 * CLL-16-29 +  BW-16
+set nextHL-17 HL-0 * CLL-17-0 + HL-1 * CLL-17-1 + HL-2 * CLL-17-2 + HL-3 * CLL-17-3 + HL-4 * CLL-17-4 + HL-5 * CLL-17-5 + HL-6 * CLL-17-6 + HL-7 * CLL-17-7 + HL-8 * CLL-17-8 + HL-9 * CLL-17-9 + HL-10 * CLL-17-10 + HL-11 * CLL-17-11 + HL-12 * CLL-17-12 + HL-13 * CLL-17-13 + HL-14 * CLL-17-14 + HL-15 * CLL-17-15 + HL-16 * CLL-17-16 + HL-18 * CLL-17-18 + HL-19 * CLL-17-19 + HL-20 * CLL-17-20 + HL-21 * CLL-17-21 + HL-22 * CLL-17-22 + HL-23 * CLL-17-23 + HL-24 * CLL-17-24 + HL-25 * CLL-17-25 + HL-26 * CLL-17-26 + HL-27 * CLL-17-27 + HL-28 * CLL-17-28 + HL-29 * CLL-17-29 +  BW-17
+set nextHL-18 HL-0 * CLL-18-0 + HL-1 * CLL-18-1 + HL-2 * CLL-18-2 + HL-3 * CLL-18-3 + HL-4 * CLL-18-4 + HL-5 * CLL-18-5 + HL-6 * CLL-18-6 + HL-7 * CLL-18-7 + HL-8 * CLL-18-8 + HL-9 * CLL-18-9 + HL-10 * CLL-18-10 + HL-11 * CLL-18-11 + HL-12 * CLL-18-12 + HL-13 * CLL-18-13 + HL-14 * CLL-18-14 + HL-15 * CLL-18-15 + HL-16 * CLL-18-16 + HL-17 * CLL-18-17 + HL-19 * CLL-18-19 + HL-20 * CLL-18-20 + HL-21 * CLL-18-21 + HL-22 * CLL-18-22 + HL-23 * CLL-18-23 + HL-24 * CLL-18-24 + HL-25 * CLL-18-25 + HL-26 * CLL-18-26 + HL-27 * CLL-18-27 + HL-28 * CLL-18-28 + HL-29 * CLL-18-29 +  BW-18
+set nextHL-19 HL-0 * CLL-19-0 + HL-1 * CLL-19-1 + HL-2 * CLL-19-2 + HL-3 * CLL-19-3 + HL-4 * CLL-19-4 + HL-5 * CLL-19-5 + HL-6 * CLL-19-6 + HL-7 * CLL-19-7 + HL-8 * CLL-19-8 + HL-9 * CLL-19-9 + HL-10 * CLL-19-10 + HL-11 * CLL-19-11 + HL-12 * CLL-19-12 + HL-13 * CLL-19-13 + HL-14 * CLL-19-14 + HL-15 * CLL-19-15 + HL-16 * CLL-19-16 + HL-17 * CLL-19-17 + HL-18 * CLL-19-18 + HL-20 * CLL-19-20 + HL-21 * CLL-19-21 + HL-22 * CLL-19-22 + HL-23 * CLL-19-23 + HL-24 * CLL-19-24 + HL-25 * CLL-19-25 + HL-26 * CLL-19-26 + HL-27 * CLL-19-27 + HL-28 * CLL-19-28 + HL-29 * CLL-19-29 +  BW-19
+set nextHL-20 HL-0 * CLL-20-0 + HL-1 * CLL-20-1 + HL-2 * CLL-20-2 + HL-3 * CLL-20-3 + HL-4 * CLL-20-4 + HL-5 * CLL-20-5 + HL-6 * CLL-20-6 + HL-7 * CLL-20-7 + HL-8 * CLL-20-8 + HL-9 * CLL-20-9 + HL-10 * CLL-20-10 + HL-11 * CLL-20-11 + HL-12 * CLL-20-12 + HL-13 * CLL-20-13 + HL-14 * CLL-20-14 + HL-15 * CLL-20-15 + HL-16 * CLL-20-16 + HL-17 * CLL-20-17 + HL-18 * CLL-20-18 + HL-19 * CLL-20-19 + HL-21 * CLL-20-21 + HL-22 * CLL-20-22 + HL-23 * CLL-20-23 + HL-24 * CLL-20-24 + HL-25 * CLL-20-25 + HL-26 * CLL-20-26 + HL-27 * CLL-20-27 + HL-28 * CLL-20-28 + HL-29 * CLL-20-29 +  BW-20
+set nextHL-21 HL-0 * CLL-21-0 + HL-1 * CLL-21-1 + HL-2 * CLL-21-2 + HL-3 * CLL-21-3 + HL-4 * CLL-21-4 + HL-5 * CLL-21-5 + HL-6 * CLL-21-6 + HL-7 * CLL-21-7 + HL-8 * CLL-21-8 + HL-9 * CLL-21-9 + HL-10 * CLL-21-10 + HL-11 * CLL-21-11 + HL-12 * CLL-21-12 + HL-13 * CLL-21-13 + HL-14 * CLL-21-14 + HL-15 * CLL-21-15 + HL-16 * CLL-21-16 + HL-17 * CLL-21-17 + HL-18 * CLL-21-18 + HL-19 * CLL-21-19 + HL-20 * CLL-21-20 + HL-22 * CLL-21-22 + HL-23 * CLL-21-23 + HL-24 * CLL-21-24 + HL-25 * CLL-21-25 + HL-26 * CLL-21-26 + HL-27 * CLL-21-27 + HL-28 * CLL-21-28 + HL-29 * CLL-21-29 +  BW-21
+set nextHL-22 HL-0 * CLL-22-0 + HL-1 * CLL-22-1 + HL-2 * CLL-22-2 + HL-3 * CLL-22-3 + HL-4 * CLL-22-4 + HL-5 * CLL-22-5 + HL-6 * CLL-22-6 + HL-7 * CLL-22-7 + HL-8 * CLL-22-8 + HL-9 * CLL-22-9 + HL-10 * CLL-22-10 + HL-11 * CLL-22-11 + HL-12 * CLL-22-12 + HL-13 * CLL-22-13 + HL-14 * CLL-22-14 + HL-15 * CLL-22-15 + HL-16 * CLL-22-16 + HL-17 * CLL-22-17 + HL-18 * CLL-22-18 + HL-19 * CLL-22-19 + HL-20 * CLL-22-20 + HL-21 * CLL-22-21 + HL-23 * CLL-22-23 + HL-24 * CLL-22-24 + HL-25 * CLL-22-25 + HL-26 * CLL-22-26 + HL-27 * CLL-22-27 + HL-28 * CLL-22-28 + HL-29 * CLL-22-29 +  BW-22
+set nextHL-23 HL-0 * CLL-23-0 + HL-1 * CLL-23-1 + HL-2 * CLL-23-2 + HL-3 * CLL-23-3 + HL-4 * CLL-23-4 + HL-5 * CLL-23-5 + HL-6 * CLL-23-6 + HL-7 * CLL-23-7 + HL-8 * CLL-23-8 + HL-9 * CLL-23-9 + HL-10 * CLL-23-10 + HL-11 * CLL-23-11 + HL-12 * CLL-23-12 + HL-13 * CLL-23-13 + HL-14 * CLL-23-14 + HL-15 * CLL-23-15 + HL-16 * CLL-23-16 + HL-17 * CLL-23-17 + HL-18 * CLL-23-18 + HL-19 * CLL-23-19 + HL-20 * CLL-23-20 + HL-21 * CLL-23-21 + HL-22 * CLL-23-22 + HL-24 * CLL-23-24 + HL-25 * CLL-23-25 + HL-26 * CLL-23-26 + HL-27 * CLL-23-27 + HL-28 * CLL-23-28 + HL-29 * CLL-23-29 +  BW-23
+set nextHL-24 HL-0 * CLL-24-0 + HL-1 * CLL-24-1 + HL-2 * CLL-24-2 + HL-3 * CLL-24-3 + HL-4 * CLL-24-4 + HL-5 * CLL-24-5 + HL-6 * CLL-24-6 + HL-7 * CLL-24-7 + HL-8 * CLL-24-8 + HL-9 * CLL-24-9 + HL-10 * CLL-24-10 + HL-11 * CLL-24-11 + HL-12 * CLL-24-12 + HL-13 * CLL-24-13 + HL-14 * CLL-24-14 + HL-15 * CLL-24-15 + HL-16 * CLL-24-16 + HL-17 * CLL-24-17 + HL-18 * CLL-24-18 + HL-19 * CLL-24-19 + HL-20 * CLL-24-20 + HL-21 * CLL-24-21 + HL-22 * CLL-24-22 + HL-23 * CLL-24-23 + HL-25 * CLL-24-25 + HL-26 * CLL-24-26 + HL-27 * CLL-24-27 + HL-28 * CLL-24-28 + HL-29 * CLL-24-29 +  BW-24
+set nextHL-25 HL-0 * CLL-25-0 + HL-1 * CLL-25-1 + HL-2 * CLL-25-2 + HL-3 * CLL-25-3 + HL-4 * CLL-25-4 + HL-5 * CLL-25-5 + HL-6 * CLL-25-6 + HL-7 * CLL-25-7 + HL-8 * CLL-25-8 + HL-9 * CLL-25-9 + HL-10 * CLL-25-10 + HL-11 * CLL-25-11 + HL-12 * CLL-25-12 + HL-13 * CLL-25-13 + HL-14 * CLL-25-14 + HL-15 * CLL-25-15 + HL-16 * CLL-25-16 + HL-17 * CLL-25-17 + HL-18 * CLL-25-18 + HL-19 * CLL-25-19 + HL-20 * CLL-25-20 + HL-21 * CLL-25-21 + HL-22 * CLL-25-22 + HL-23 * CLL-25-23 + HL-24 * CLL-25-24 + HL-26 * CLL-25-26 + HL-27 * CLL-25-27 + HL-28 * CLL-25-28 + HL-29 * CLL-25-29 +  BW-25
+set nextHL-26 HL-0 * CLL-26-0 + HL-1 * CLL-26-1 + HL-2 * CLL-26-2 + HL-3 * CLL-26-3 + HL-4 * CLL-26-4 + HL-5 * CLL-26-5 + HL-6 * CLL-26-6 + HL-7 * CLL-26-7 + HL-8 * CLL-26-8 + HL-9 * CLL-26-9 + HL-10 * CLL-26-10 + HL-11 * CLL-26-11 + HL-12 * CLL-26-12 + HL-13 * CLL-26-13 + HL-14 * CLL-26-14 + HL-15 * CLL-26-15 + HL-16 * CLL-26-16 + HL-17 * CLL-26-17 + HL-18 * CLL-26-18 + HL-19 * CLL-26-19 + HL-20 * CLL-26-20 + HL-21 * CLL-26-21 + HL-22 * CLL-26-22 + HL-23 * CLL-26-23 + HL-24 * CLL-26-24 + HL-25 * CLL-26-25 + HL-27 * CLL-26-27 + HL-28 * CLL-26-28 + HL-29 * CLL-26-29 +  BW-26
+set nextHL-27 HL-0 * CLL-27-0 + HL-1 * CLL-27-1 + HL-2 * CLL-27-2 + HL-3 * CLL-27-3 + HL-4 * CLL-27-4 + HL-5 * CLL-27-5 + HL-6 * CLL-27-6 + HL-7 * CLL-27-7 + HL-8 * CLL-27-8 + HL-9 * CLL-27-9 + HL-10 * CLL-27-10 + HL-11 * CLL-27-11 + HL-12 * CLL-27-12 + HL-13 * CLL-27-13 + HL-14 * CLL-27-14 + HL-15 * CLL-27-15 + HL-16 * CLL-27-16 + HL-17 * CLL-27-17 + HL-18 * CLL-27-18 + HL-19 * CLL-27-19 + HL-20 * CLL-27-20 + HL-21 * CLL-27-21 + HL-22 * CLL-27-22 + HL-23 * CLL-27-23 + HL-24 * CLL-27-24 + HL-25 * CLL-27-25 + HL-26 * CLL-27-26 + HL-28 * CLL-27-28 + HL-29 * CLL-27-29 +  BW-27
+set nextHL-28 HL-0 * CLL-28-0 + HL-1 * CLL-28-1 + HL-2 * CLL-28-2 + HL-3 * CLL-28-3 + HL-4 * CLL-28-4 + HL-5 * CLL-28-5 + HL-6 * CLL-28-6 + HL-7 * CLL-28-7 + HL-8 * CLL-28-8 + HL-9 * CLL-28-9 + HL-10 * CLL-28-10 + HL-11 * CLL-28-11 + HL-12 * CLL-28-12 + HL-13 * CLL-28-13 + HL-14 * CLL-28-14 + HL-15 * CLL-28-15 + HL-16 * CLL-28-16 + HL-17 * CLL-28-17 + HL-18 * CLL-28-18 + HL-19 * CLL-28-19 + HL-20 * CLL-28-20 + HL-21 * CLL-28-21 + HL-22 * CLL-28-22 + HL-23 * CLL-28-23 + HL-24 * CLL-28-24 + HL-25 * CLL-28-25 + HL-26 * CLL-28-26 + HL-27 * CLL-28-27 + HL-29 * CLL-28-29 +  BW-28
+set nextHL-29 HL-0 * CLL-29-0 + HL-1 * CLL-29-1 + HL-2 * CLL-29-2 + HL-3 * CLL-29-3 + HL-4 * CLL-29-4 + HL-5 * CLL-29-5 + HL-6 * CLL-29-6 + HL-7 * CLL-29-7 + HL-8 * CLL-29-8 + HL-9 * CLL-29-9 + HL-10 * CLL-29-10 + HL-11 * CLL-29-11 + HL-12 * CLL-29-12 + HL-13 * CLL-29-13 + HL-14 * CLL-29-14 + HL-15 * CLL-29-15 + HL-16 * CLL-29-16 + HL-17 * CLL-29-17 + HL-18 * CLL-29-18 + HL-19 * CLL-29-19 + HL-20 * CLL-29-20 + HL-21 * CLL-29-21 + HL-22 * CLL-29-22 + HL-23 * CLL-29-23 + HL-24 * CLL-29-24 + HL-25 * CLL-29-25 + HL-26 * CLL-29-26 + HL-27 * CLL-29-27 + HL-28 * CLL-29-28 +  BW-29
+set HL-0 sigmoid nextHL-0
+set HL-1 sigmoid nextHL-1
+set HL-2 sigmoid nextHL-2
+set HL-3 sigmoid nextHL-3
+set HL-4 sigmoid nextHL-4
+set HL-5 sigmoid nextHL-5
+set HL-6 sigmoid nextHL-6
+set HL-7 sigmoid nextHL-7
+set HL-8 sigmoid nextHL-8
+set HL-9 sigmoid nextHL-9
+set HL-10 sigmoid nextHL-10
+set HL-11 sigmoid nextHL-11
+set HL-12 sigmoid nextHL-12
+set HL-13 sigmoid nextHL-13
+set HL-14 sigmoid nextHL-14
+set HL-15 sigmoid nextHL-15
+set HL-16 sigmoid nextHL-16
+set HL-17 sigmoid nextHL-17
+set HL-18 sigmoid nextHL-18
+set HL-19 sigmoid nextHL-19
+set HL-20 sigmoid nextHL-20
+set HL-21 sigmoid nextHL-21
+set HL-22 sigmoid nextHL-22
+set HL-23 sigmoid nextHL-23
+set HL-24 sigmoid nextHL-24
+set HL-25 sigmoid nextHL-25
+set HL-26 sigmoid nextHL-26
+set HL-27 sigmoid nextHL-27
+set HL-28 sigmoid nextHL-28
+set HL-29 sigmoid nextHL-29
+
+
+
+CLL-0-1
+CLL-0-2
+CLL-0-3
+CLL-0-4
+CLL-0-5
+CLL-0-6
+CLL-0-7
+CLL-0-8
+CLL-0-9
+CLL-0-10
+CLL-0-11
+CLL-0-12
+CLL-0-13
+CLL-0-14
+CLL-0-15
+CLL-0-16
+CLL-0-17
+CLL-0-18
+CLL-0-19
+CLL-0-20
+CLL-0-21
+CLL-0-22
+CLL-0-23
+CLL-0-24
+CLL-0-25
+CLL-0-26
+CLL-0-27
+CLL-0-28
+CLL-0-29
+CLL-1-0
+CLL-1-2
+CLL-1-3
+CLL-1-4
+CLL-1-5
+CLL-1-6
+CLL-1-7
+CLL-1-8
+CLL-1-9
+CLL-1-10
+CLL-1-11
+CLL-1-12
+CLL-1-13
+CLL-1-14
+CLL-1-15
+CLL-1-16
+CLL-1-17
+CLL-1-18
+CLL-1-19
+CLL-1-20
+CLL-1-21
+CLL-1-22
+CLL-1-23
+CLL-1-24
+CLL-1-25
+CLL-1-26
+CLL-1-27
+CLL-1-28
+CLL-1-29
+CLL-2-0
+CLL-2-1
+CLL-2-3
+CLL-2-4
+CLL-2-5
+CLL-2-6
+CLL-2-7
+CLL-2-8
+CLL-2-9
+CLL-2-10
+CLL-2-11
+CLL-2-12
+CLL-2-13
+CLL-2-14
+CLL-2-15
+CLL-2-16
+CLL-2-17
+CLL-2-18
+CLL-2-19
+CLL-2-20
+CLL-2-21
+CLL-2-22
+CLL-2-23
+CLL-2-24
+CLL-2-25
+CLL-2-26
+CLL-2-27
+CLL-2-28
+CLL-2-29
+CLL-3-0
+CLL-3-1
+CLL-3-2
+CLL-3-4
+CLL-3-5
+CLL-3-6
+CLL-3-7
+CLL-3-8
+CLL-3-9
+CLL-3-10
+CLL-3-11
+CLL-3-12
+CLL-3-13
+CLL-3-14
+CLL-3-15
+CLL-3-16
+CLL-3-17
+CLL-3-18
+CLL-3-19
+CLL-3-20
+CLL-3-21
+CLL-3-22
+CLL-3-23
+CLL-3-24
+CLL-3-25
+CLL-3-26
+CLL-3-27
+CLL-3-28
+CLL-3-29
+CLL-4-0
+CLL-4-1
+CLL-4-2
+CLL-4-3
+CLL-4-5
+CLL-4-6
+CLL-4-7
+CLL-4-8
+CLL-4-9
+CLL-4-10
+CLL-4-11
+CLL-4-12
+CLL-4-13
+CLL-4-14
+CLL-4-15
+CLL-4-16
+CLL-4-17
+CLL-4-18
+CLL-4-19
+CLL-4-20
+CLL-4-21
+CLL-4-22
+CLL-4-23
+CLL-4-24
+CLL-4-25
+CLL-4-26
+CLL-4-27
+CLL-4-28
+CLL-4-29
+CLL-5-0
+CLL-5-1
+CLL-5-2
+CLL-5-3
+CLL-5-4
+CLL-5-6
+CLL-5-7
+CLL-5-8
+CLL-5-9
+CLL-5-10
+CLL-5-11
+CLL-5-12
+CLL-5-13
+CLL-5-14
+CLL-5-15
+CLL-5-16
+CLL-5-17
+CLL-5-18
+CLL-5-19
+CLL-5-20
+CLL-5-21
+CLL-5-22
+CLL-5-23
+CLL-5-24
+CLL-5-25
+CLL-5-26
+CLL-5-27
+CLL-5-28
+CLL-5-29
+CLL-6-0
+CLL-6-1
+CLL-6-2
+CLL-6-3
+CLL-6-4
+CLL-6-5
+CLL-6-7
+CLL-6-8
+CLL-6-9
+CLL-6-10
+CLL-6-11
+CLL-6-12
+CLL-6-13
+CLL-6-14
+CLL-6-15
+CLL-6-16
+CLL-6-17
+CLL-6-18
+CLL-6-19
+CLL-6-20
+CLL-6-21
+CLL-6-22
+CLL-6-23
+CLL-6-24
+CLL-6-25
+CLL-6-26
+CLL-6-27
+CLL-6-28
+CLL-6-29
+CLL-7-0
+CLL-7-1
+CLL-7-2
+CLL-7-3
+CLL-7-4
+CLL-7-5
+CLL-7-6
+CLL-7-8
+CLL-7-9
+CLL-7-10
+CLL-7-11
+CLL-7-12
+CLL-7-13
+CLL-7-14
+CLL-7-15
+CLL-7-16
+CLL-7-17
+CLL-7-18
+CLL-7-19
+CLL-7-20
+CLL-7-21
+CLL-7-22
+CLL-7-23
+CLL-7-24
+CLL-7-25
+CLL-7-26
+CLL-7-27
+CLL-7-28
+CLL-7-29
+CLL-8-0
+CLL-8-1
+CLL-8-2
+CLL-8-3
+CLL-8-4
+CLL-8-5
+CLL-8-6
+CLL-8-7
+CLL-8-9
+CLL-8-10
+CLL-8-11
+CLL-8-12
+CLL-8-13
+CLL-8-14
+CLL-8-15
+CLL-8-16
+CLL-8-17
+CLL-8-18
+CLL-8-19
+CLL-8-20
+CLL-8-21
+CLL-8-22
+CLL-8-23
+CLL-8-24
+CLL-8-25
+CLL-8-26
+CLL-8-27
+CLL-8-28
+CLL-8-29
+CLL-9-0
+CLL-9-1
+CLL-9-2
+CLL-9-3
+CLL-9-4
+CLL-9-5
+CLL-9-6
+CLL-9-7
+CLL-9-8
+CLL-9-10
+CLL-9-11
+CLL-9-12
+CLL-9-13
+CLL-9-14
+CLL-9-15
+CLL-9-16
+CLL-9-17
+CLL-9-18
+CLL-9-19
+CLL-9-20
+CLL-9-21
+CLL-9-22
+CLL-9-23
+CLL-9-24
+CLL-9-25
+CLL-9-26
+CLL-9-27
+CLL-9-28
+CLL-9-29
+CLL-10-0
+CLL-10-1
+CLL-10-2
+CLL-10-3
+CLL-10-4
+CLL-10-5
+CLL-10-6
+CLL-10-7
+CLL-10-8
+CLL-10-9
+CLL-10-11
+CLL-10-12
+CLL-10-13
+CLL-10-14
+CLL-10-15
+CLL-10-16
+CLL-10-17
+CLL-10-18
+CLL-10-19
+CLL-10-20
+CLL-10-21
+CLL-10-22
+CLL-10-23
+CLL-10-24
+CLL-10-25
+CLL-10-26
+CLL-10-27
+CLL-10-28
+CLL-10-29
+CLL-11-0
+CLL-11-1
+CLL-11-2
+CLL-11-3
+CLL-11-4
+CLL-11-5
+CLL-11-6
+CLL-11-7
+CLL-11-8
+CLL-11-9
+CLL-11-10
+CLL-11-12
+CLL-11-13
+CLL-11-14
+CLL-11-15
+CLL-11-16
+CLL-11-17
+CLL-11-18
+CLL-11-19
+CLL-11-20
+CLL-11-21
+CLL-11-22
+CLL-11-23
+CLL-11-24
+CLL-11-25
+CLL-11-26
+CLL-11-27
+CLL-11-28
+CLL-11-29
+CLL-12-0
+CLL-12-1
+CLL-12-2
+CLL-12-3
+CLL-12-4
+CLL-12-5
+CLL-12-6
+CLL-12-7
+CLL-12-8
+CLL-12-9
+CLL-12-10
+CLL-12-11
+CLL-12-13
+CLL-12-14
+CLL-12-15
+CLL-12-16
+CLL-12-17
+CLL-12-18
+CLL-12-19
+CLL-12-20
+CLL-12-21
+CLL-12-22
+CLL-12-23
+CLL-12-24
+CLL-12-25
+CLL-12-26
+CLL-12-27
+CLL-12-28
+CLL-12-29
+CLL-13-0
+CLL-13-1
+CLL-13-2
+CLL-13-3
+CLL-13-4
+CLL-13-5
+CLL-13-6
+CLL-13-7
+CLL-13-8
+CLL-13-9
+CLL-13-10
+CLL-13-11
+CLL-13-12
+CLL-13-14
+CLL-13-15
+CLL-13-16
+CLL-13-17
+CLL-13-18
+CLL-13-19
+CLL-13-20
+CLL-13-21
+CLL-13-22
+CLL-13-23
+CLL-13-24
+CLL-13-25
+CLL-13-26
+CLL-13-27
+CLL-13-28
+CLL-13-29
+CLL-14-0
+CLL-14-1
+CLL-14-2
+CLL-14-3
+CLL-14-4
+CLL-14-5
+CLL-14-6
+CLL-14-7
+CLL-14-8
+CLL-14-9
+CLL-14-10
+CLL-14-11
+CLL-14-12
+CLL-14-13
+CLL-14-15
+CLL-14-16
+CLL-14-17
+CLL-14-18
+CLL-14-19
+CLL-14-20
+CLL-14-21
+CLL-14-22
+CLL-14-23
+CLL-14-24
+CLL-14-25
+CLL-14-26
+CLL-14-27
+CLL-14-28
+CLL-14-29
+CLL-15-0
+CLL-15-1
+CLL-15-2
+CLL-15-3
+CLL-15-4
+CLL-15-5
+CLL-15-6
+CLL-15-7
+CLL-15-8
+CLL-15-9
+CLL-15-10
+CLL-15-11
+CLL-15-12
+CLL-15-13
+CLL-15-14
+CLL-15-16
+CLL-15-17
+CLL-15-18
+CLL-15-19
+CLL-15-20
+CLL-15-21
+CLL-15-22
+CLL-15-23
+CLL-15-24
+CLL-15-25
+CLL-15-26
+CLL-15-27
+CLL-15-28
+CLL-15-29
+CLL-16-0
+CLL-16-1
+CLL-16-2
+CLL-16-3
+CLL-16-4
+CLL-16-5
+CLL-16-6
+CLL-16-7
+CLL-16-8
+CLL-16-9
+CLL-16-10
+CLL-16-11
+CLL-16-12
+CLL-16-13
+CLL-16-14
+CLL-16-15
+CLL-16-17
+CLL-16-18
+CLL-16-19
+CLL-16-20
+CLL-16-21
+CLL-16-22
+CLL-16-23
+CLL-16-24
+CLL-16-25
+CLL-16-26
+CLL-16-27
+CLL-16-28
+CLL-16-29
+CLL-17-0
+CLL-17-1
+CLL-17-2
+CLL-17-3
+CLL-17-4
+CLL-17-5
+CLL-17-6
+CLL-17-7
+CLL-17-8
+CLL-17-9
+CLL-17-10
+CLL-17-11
+CLL-17-12
+CLL-17-13
+CLL-17-14
+CLL-17-15
+CLL-17-16
+CLL-17-18
+CLL-17-19
+CLL-17-20
+CLL-17-21
+CLL-17-22
+CLL-17-23
+CLL-17-24
+CLL-17-25
+CLL-17-26
+CLL-17-27
+CLL-17-28
+CLL-17-29
+CLL-18-0
+CLL-18-1
+CLL-18-2
+CLL-18-3
+CLL-18-4
+CLL-18-5
+CLL-18-6
+CLL-18-7
+CLL-18-8
+CLL-18-9
+CLL-18-10
+CLL-18-11
+CLL-18-12
+CLL-18-13
+CLL-18-14
+CLL-18-15
+CLL-18-16
+CLL-18-17
+CLL-18-19
+CLL-18-20
+CLL-18-21
+CLL-18-22
+CLL-18-23
+CLL-18-24
+CLL-18-25
+CLL-18-26
+CLL-18-27
+CLL-18-28
+CLL-18-29
+CLL-19-0
+CLL-19-1
+CLL-19-2
+CLL-19-3
+CLL-19-4
+CLL-19-5
+CLL-19-6
+CLL-19-7
+CLL-19-8
+CLL-19-9
+CLL-19-10
+CLL-19-11
+CLL-19-12
+CLL-19-13
+CLL-19-14
+CLL-19-15
+CLL-19-16
+CLL-19-17
+CLL-19-18
+CLL-19-20
+CLL-19-21
+CLL-19-22
+CLL-19-23
+CLL-19-24
+CLL-19-25
+CLL-19-26
+CLL-19-27
+CLL-19-28
+CLL-19-29
+CLL-20-0
+CLL-20-1
+CLL-20-2
+CLL-20-3
+CLL-20-4
+CLL-20-5
+CLL-20-6
+CLL-20-7
+CLL-20-8
+CLL-20-9
+CLL-20-10
+CLL-20-11
+CLL-20-12
+CLL-20-13
+CLL-20-14
+CLL-20-15
+CLL-20-16
+CLL-20-17
+CLL-20-18
+CLL-20-19
+CLL-20-21
+CLL-20-22
+CLL-20-23
+CLL-20-24
+CLL-20-25
+CLL-20-26
+CLL-20-27
+CLL-20-28
+CLL-20-29
+CLL-21-0
+CLL-21-1
+CLL-21-2
+CLL-21-3
+CLL-21-4
+CLL-21-5
+CLL-21-6
+CLL-21-7
+CLL-21-8
+CLL-21-9
+CLL-21-10
+CLL-21-11
+CLL-21-12
+CLL-21-13
+CLL-21-14
+CLL-21-15
+CLL-21-16
+CLL-21-17
+CLL-21-18
+CLL-21-19
+CLL-21-20
+CLL-21-22
+CLL-21-23
+CLL-21-24
+CLL-21-25
+CLL-21-26
+CLL-21-27
+CLL-21-28
+CLL-21-29
+CLL-22-0
+CLL-22-1
+CLL-22-2
+CLL-22-3
+CLL-22-4
+CLL-22-5
+CLL-22-6
+CLL-22-7
+CLL-22-8
+CLL-22-9
+CLL-22-10
+CLL-22-11
+CLL-22-12
+CLL-22-13
+CLL-22-14
+CLL-22-15
+CLL-22-16
+CLL-22-17
+CLL-22-18
+CLL-22-19
+CLL-22-20
+CLL-22-21
+CLL-22-23
+CLL-22-24
+CLL-22-25
+CLL-22-26
+CLL-22-27
+CLL-22-28
+CLL-22-29
+CLL-23-0
+CLL-23-1
+CLL-23-2
+CLL-23-3
+CLL-23-4
+CLL-23-5
+CLL-23-6
+CLL-23-7
+CLL-23-8
+CLL-23-9
+CLL-23-10
+CLL-23-11
+CLL-23-12
+CLL-23-13
+CLL-23-14
+CLL-23-15
+CLL-23-16
+CLL-23-17
+CLL-23-18
+CLL-23-19
+CLL-23-20
+CLL-23-21
+CLL-23-22
+CLL-23-24
+CLL-23-25
+CLL-23-26
+CLL-23-27
+CLL-23-28
+CLL-23-29
+CLL-24-0
+CLL-24-1
+CLL-24-2
+CLL-24-3
+CLL-24-4
+CLL-24-5
+CLL-24-6
+CLL-24-7
+CLL-24-8
+CLL-24-9
+CLL-24-10
+CLL-24-11
+CLL-24-12
+CLL-24-13
+CLL-24-14
+CLL-24-15
+CLL-24-16
+CLL-24-17
+CLL-24-18
+CLL-24-19
+CLL-24-20
+CLL-24-21
+CLL-24-22
+CLL-24-23
+CLL-24-25
+CLL-24-26
+CLL-24-27
+CLL-24-28
+CLL-24-29
+CLL-25-0
+CLL-25-1
+CLL-25-2
+CLL-25-3
+CLL-25-4
+CLL-25-5
+CLL-25-6
+CLL-25-7
+CLL-25-8
+CLL-25-9
+CLL-25-10
+CLL-25-11
+CLL-25-12
+CLL-25-13
+CLL-25-14
+CLL-25-15
+CLL-25-16
+CLL-25-17
+CLL-25-18
+CLL-25-19
+CLL-25-20
+CLL-25-21
+CLL-25-22
+CLL-25-23
+CLL-25-24
+CLL-25-26
+CLL-25-27
+CLL-25-28
+CLL-25-29
+CLL-26-0
+CLL-26-1
+CLL-26-2
+CLL-26-3
+CLL-26-4
+CLL-26-5
+CLL-26-6
+CLL-26-7
+CLL-26-8
+CLL-26-9
+CLL-26-10
+CLL-26-11
+CLL-26-12
+CLL-26-13
+CLL-26-14
+CLL-26-15
+CLL-26-16
+CLL-26-17
+CLL-26-18
+CLL-26-19
+CLL-26-20
+CLL-26-21
+CLL-26-22
+CLL-26-23
+CLL-26-24
+CLL-26-25
+CLL-26-27
+CLL-26-28
+CLL-26-29
+CLL-27-0
+CLL-27-1
+CLL-27-2
+CLL-27-3
+CLL-27-4
+CLL-27-5
+CLL-27-6
+CLL-27-7
+CLL-27-8
+CLL-27-9
+CLL-27-10
+CLL-27-11
+CLL-27-12
+CLL-27-13
+CLL-27-14
+CLL-27-15
+CLL-27-16
+CLL-27-17
+CLL-27-18
+CLL-27-19
+CLL-27-20
+CLL-27-21
+CLL-27-22
+CLL-27-23
+CLL-27-24
+CLL-27-25
+CLL-27-26
+CLL-27-28
+CLL-27-29
+CLL-28-0
+CLL-28-1
+CLL-28-2
+CLL-28-3
+CLL-28-4
+CLL-28-5
+CLL-28-6
+CLL-28-7
+CLL-28-8
+CLL-28-9
+CLL-28-10
+CLL-28-11
+CLL-28-12
+CLL-28-13
+CLL-28-14
+CLL-28-15
+CLL-28-16
+CLL-28-17
+CLL-28-18
+CLL-28-19
+CLL-28-20
+CLL-28-21
+CLL-28-22
+CLL-28-23
+CLL-28-24
+CLL-28-25
+CLL-28-26
+CLL-28-27
+CLL-28-29
+CLL-29-0
+CLL-29-1
+CLL-29-2
+CLL-29-3
+CLL-29-4
+CLL-29-5
+CLL-29-6
+CLL-29-7
+CLL-29-8
+CLL-29-9
+CLL-29-10
+CLL-29-11
+CLL-29-12
+CLL-29-13
+CLL-29-14
+CLL-29-15
+CLL-29-16
+CLL-29-17
+CLL-29-18
+CLL-29-19
+CLL-29-20
+CLL-29-21
+CLL-29-22
+CLL-29-23
+CLL-29-24
+CLL-29-25
+CLL-29-26
+CLL-29-27
+CLL-29-28
+
+
+
+set CLL-0-1 random-normal 0 1
+set CLL-0-2 random-normal 0 1
+set CLL-0-3 random-normal 0 1
+set CLL-0-4 random-normal 0 1
+set CLL-0-5 random-normal 0 1
+set CLL-0-6 random-normal 0 1
+set CLL-0-7 random-normal 0 1
+set CLL-0-8 random-normal 0 1
+set CLL-0-9 random-normal 0 1
+set CLL-0-10 random-normal 0 1
+set CLL-0-11 random-normal 0 1
+set CLL-0-12 random-normal 0 1
+set CLL-0-13 random-normal 0 1
+set CLL-0-14 random-normal 0 1
+set CLL-0-15 random-normal 0 1
+set CLL-0-16 random-normal 0 1
+set CLL-0-17 random-normal 0 1
+set CLL-0-18 random-normal 0 1
+set CLL-0-19 random-normal 0 1
+set CLL-0-20 random-normal 0 1
+set CLL-0-21 random-normal 0 1
+set CLL-0-22 random-normal 0 1
+set CLL-0-23 random-normal 0 1
+set CLL-0-24 random-normal 0 1
+set CLL-0-25 random-normal 0 1
+set CLL-0-26 random-normal 0 1
+set CLL-0-27 random-normal 0 1
+set CLL-0-28 random-normal 0 1
+set CLL-0-29 random-normal 0 1
+set CLL-1-0 random-normal 0 1
+set CLL-1-2 random-normal 0 1
+set CLL-1-3 random-normal 0 1
+set CLL-1-4 random-normal 0 1
+set CLL-1-5 random-normal 0 1
+set CLL-1-6 random-normal 0 1
+set CLL-1-7 random-normal 0 1
+set CLL-1-8 random-normal 0 1
+set CLL-1-9 random-normal 0 1
+set CLL-1-10 random-normal 0 1
+set CLL-1-11 random-normal 0 1
+set CLL-1-12 random-normal 0 1
+set CLL-1-13 random-normal 0 1
+set CLL-1-14 random-normal 0 1
+set CLL-1-15 random-normal 0 1
+set CLL-1-16 random-normal 0 1
+set CLL-1-17 random-normal 0 1
+set CLL-1-18 random-normal 0 1
+set CLL-1-19 random-normal 0 1
+set CLL-1-20 random-normal 0 1
+set CLL-1-21 random-normal 0 1
+set CLL-1-22 random-normal 0 1
+set CLL-1-23 random-normal 0 1
+set CLL-1-24 random-normal 0 1
+set CLL-1-25 random-normal 0 1
+set CLL-1-26 random-normal 0 1
+set CLL-1-27 random-normal 0 1
+set CLL-1-28 random-normal 0 1
+set CLL-1-29 random-normal 0 1
+set CLL-2-0 random-normal 0 1
+set CLL-2-1 random-normal 0 1
+set CLL-2-3 random-normal 0 1
+set CLL-2-4 random-normal 0 1
+set CLL-2-5 random-normal 0 1
+set CLL-2-6 random-normal 0 1
+set CLL-2-7 random-normal 0 1
+set CLL-2-8 random-normal 0 1
+set CLL-2-9 random-normal 0 1
+set CLL-2-10 random-normal 0 1
+set CLL-2-11 random-normal 0 1
+set CLL-2-12 random-normal 0 1
+set CLL-2-13 random-normal 0 1
+set CLL-2-14 random-normal 0 1
+set CLL-2-15 random-normal 0 1
+set CLL-2-16 random-normal 0 1
+set CLL-2-17 random-normal 0 1
+set CLL-2-18 random-normal 0 1
+set CLL-2-19 random-normal 0 1
+set CLL-2-20 random-normal 0 1
+set CLL-2-21 random-normal 0 1
+set CLL-2-22 random-normal 0 1
+set CLL-2-23 random-normal 0 1
+set CLL-2-24 random-normal 0 1
+set CLL-2-25 random-normal 0 1
+set CLL-2-26 random-normal 0 1
+set CLL-2-27 random-normal 0 1
+set CLL-2-28 random-normal 0 1
+set CLL-2-29 random-normal 0 1
+set CLL-3-0 random-normal 0 1
+set CLL-3-1 random-normal 0 1
+set CLL-3-2 random-normal 0 1
+set CLL-3-4 random-normal 0 1
+set CLL-3-5 random-normal 0 1
+set CLL-3-6 random-normal 0 1
+set CLL-3-7 random-normal 0 1
+set CLL-3-8 random-normal 0 1
+set CLL-3-9 random-normal 0 1
+set CLL-3-10 random-normal 0 1
+set CLL-3-11 random-normal 0 1
+set CLL-3-12 random-normal 0 1
+set CLL-3-13 random-normal 0 1
+set CLL-3-14 random-normal 0 1
+set CLL-3-15 random-normal 0 1
+set CLL-3-16 random-normal 0 1
+set CLL-3-17 random-normal 0 1
+set CLL-3-18 random-normal 0 1
+set CLL-3-19 random-normal 0 1
+set CLL-3-20 random-normal 0 1
+set CLL-3-21 random-normal 0 1
+set CLL-3-22 random-normal 0 1
+set CLL-3-23 random-normal 0 1
+set CLL-3-24 random-normal 0 1
+set CLL-3-25 random-normal 0 1
+set CLL-3-26 random-normal 0 1
+set CLL-3-27 random-normal 0 1
+set CLL-3-28 random-normal 0 1
+set CLL-3-29 random-normal 0 1
+set CLL-4-0 random-normal 0 1
+set CLL-4-1 random-normal 0 1
+set CLL-4-2 random-normal 0 1
+set CLL-4-3 random-normal 0 1
+set CLL-4-5 random-normal 0 1
+set CLL-4-6 random-normal 0 1
+set CLL-4-7 random-normal 0 1
+set CLL-4-8 random-normal 0 1
+set CLL-4-9 random-normal 0 1
+set CLL-4-10 random-normal 0 1
+set CLL-4-11 random-normal 0 1
+set CLL-4-12 random-normal 0 1
+set CLL-4-13 random-normal 0 1
+set CLL-4-14 random-normal 0 1
+set CLL-4-15 random-normal 0 1
+set CLL-4-16 random-normal 0 1
+set CLL-4-17 random-normal 0 1
+set CLL-4-18 random-normal 0 1
+set CLL-4-19 random-normal 0 1
+set CLL-4-20 random-normal 0 1
+set CLL-4-21 random-normal 0 1
+set CLL-4-22 random-normal 0 1
+set CLL-4-23 random-normal 0 1
+set CLL-4-24 random-normal 0 1
+set CLL-4-25 random-normal 0 1
+set CLL-4-26 random-normal 0 1
+set CLL-4-27 random-normal 0 1
+set CLL-4-28 random-normal 0 1
+set CLL-4-29 random-normal 0 1
+set CLL-5-0 random-normal 0 1
+set CLL-5-1 random-normal 0 1
+set CLL-5-2 random-normal 0 1
+set CLL-5-3 random-normal 0 1
+set CLL-5-4 random-normal 0 1
+set CLL-5-6 random-normal 0 1
+set CLL-5-7 random-normal 0 1
+set CLL-5-8 random-normal 0 1
+set CLL-5-9 random-normal 0 1
+set CLL-5-10 random-normal 0 1
+set CLL-5-11 random-normal 0 1
+set CLL-5-12 random-normal 0 1
+set CLL-5-13 random-normal 0 1
+set CLL-5-14 random-normal 0 1
+set CLL-5-15 random-normal 0 1
+set CLL-5-16 random-normal 0 1
+set CLL-5-17 random-normal 0 1
+set CLL-5-18 random-normal 0 1
+set CLL-5-19 random-normal 0 1
+set CLL-5-20 random-normal 0 1
+set CLL-5-21 random-normal 0 1
+set CLL-5-22 random-normal 0 1
+set CLL-5-23 random-normal 0 1
+set CLL-5-24 random-normal 0 1
+set CLL-5-25 random-normal 0 1
+set CLL-5-26 random-normal 0 1
+set CLL-5-27 random-normal 0 1
+set CLL-5-28 random-normal 0 1
+set CLL-5-29 random-normal 0 1
+set CLL-6-0 random-normal 0 1
+set CLL-6-1 random-normal 0 1
+set CLL-6-2 random-normal 0 1
+set CLL-6-3 random-normal 0 1
+set CLL-6-4 random-normal 0 1
+set CLL-6-5 random-normal 0 1
+set CLL-6-7 random-normal 0 1
+set CLL-6-8 random-normal 0 1
+set CLL-6-9 random-normal 0 1
+set CLL-6-10 random-normal 0 1
+set CLL-6-11 random-normal 0 1
+set CLL-6-12 random-normal 0 1
+set CLL-6-13 random-normal 0 1
+set CLL-6-14 random-normal 0 1
+set CLL-6-15 random-normal 0 1
+set CLL-6-16 random-normal 0 1
+set CLL-6-17 random-normal 0 1
+set CLL-6-18 random-normal 0 1
+set CLL-6-19 random-normal 0 1
+set CLL-6-20 random-normal 0 1
+set CLL-6-21 random-normal 0 1
+set CLL-6-22 random-normal 0 1
+set CLL-6-23 random-normal 0 1
+set CLL-6-24 random-normal 0 1
+set CLL-6-25 random-normal 0 1
+set CLL-6-26 random-normal 0 1
+set CLL-6-27 random-normal 0 1
+set CLL-6-28 random-normal 0 1
+set CLL-6-29 random-normal 0 1
+set CLL-7-0 random-normal 0 1
+set CLL-7-1 random-normal 0 1
+set CLL-7-2 random-normal 0 1
+set CLL-7-3 random-normal 0 1
+set CLL-7-4 random-normal 0 1
+set CLL-7-5 random-normal 0 1
+set CLL-7-6 random-normal 0 1
+set CLL-7-8 random-normal 0 1
+set CLL-7-9 random-normal 0 1
+set CLL-7-10 random-normal 0 1
+set CLL-7-11 random-normal 0 1
+set CLL-7-12 random-normal 0 1
+set CLL-7-13 random-normal 0 1
+set CLL-7-14 random-normal 0 1
+set CLL-7-15 random-normal 0 1
+set CLL-7-16 random-normal 0 1
+set CLL-7-17 random-normal 0 1
+set CLL-7-18 random-normal 0 1
+set CLL-7-19 random-normal 0 1
+set CLL-7-20 random-normal 0 1
+set CLL-7-21 random-normal 0 1
+set CLL-7-22 random-normal 0 1
+set CLL-7-23 random-normal 0 1
+set CLL-7-24 random-normal 0 1
+set CLL-7-25 random-normal 0 1
+set CLL-7-26 random-normal 0 1
+set CLL-7-27 random-normal 0 1
+set CLL-7-28 random-normal 0 1
+set CLL-7-29 random-normal 0 1
+set CLL-8-0 random-normal 0 1
+set CLL-8-1 random-normal 0 1
+set CLL-8-2 random-normal 0 1
+set CLL-8-3 random-normal 0 1
+set CLL-8-4 random-normal 0 1
+set CLL-8-5 random-normal 0 1
+set CLL-8-6 random-normal 0 1
+set CLL-8-7 random-normal 0 1
+set CLL-8-9 random-normal 0 1
+set CLL-8-10 random-normal 0 1
+set CLL-8-11 random-normal 0 1
+set CLL-8-12 random-normal 0 1
+set CLL-8-13 random-normal 0 1
+set CLL-8-14 random-normal 0 1
+set CLL-8-15 random-normal 0 1
+set CLL-8-16 random-normal 0 1
+set CLL-8-17 random-normal 0 1
+set CLL-8-18 random-normal 0 1
+set CLL-8-19 random-normal 0 1
+set CLL-8-20 random-normal 0 1
+set CLL-8-21 random-normal 0 1
+set CLL-8-22 random-normal 0 1
+set CLL-8-23 random-normal 0 1
+set CLL-8-24 random-normal 0 1
+set CLL-8-25 random-normal 0 1
+set CLL-8-26 random-normal 0 1
+set CLL-8-27 random-normal 0 1
+set CLL-8-28 random-normal 0 1
+set CLL-8-29 random-normal 0 1
+set CLL-9-0 random-normal 0 1
+set CLL-9-1 random-normal 0 1
+set CLL-9-2 random-normal 0 1
+set CLL-9-3 random-normal 0 1
+set CLL-9-4 random-normal 0 1
+set CLL-9-5 random-normal 0 1
+set CLL-9-6 random-normal 0 1
+set CLL-9-7 random-normal 0 1
+set CLL-9-8 random-normal 0 1
+set CLL-9-10 random-normal 0 1
+set CLL-9-11 random-normal 0 1
+set CLL-9-12 random-normal 0 1
+set CLL-9-13 random-normal 0 1
+set CLL-9-14 random-normal 0 1
+set CLL-9-15 random-normal 0 1
+set CLL-9-16 random-normal 0 1
+set CLL-9-17 random-normal 0 1
+set CLL-9-18 random-normal 0 1
+set CLL-9-19 random-normal 0 1
+set CLL-9-20 random-normal 0 1
+set CLL-9-21 random-normal 0 1
+set CLL-9-22 random-normal 0 1
+set CLL-9-23 random-normal 0 1
+set CLL-9-24 random-normal 0 1
+set CLL-9-25 random-normal 0 1
+set CLL-9-26 random-normal 0 1
+set CLL-9-27 random-normal 0 1
+set CLL-9-28 random-normal 0 1
+set CLL-9-29 random-normal 0 1
+set CLL-10-0 random-normal 0 1
+set CLL-10-1 random-normal 0 1
+set CLL-10-2 random-normal 0 1
+set CLL-10-3 random-normal 0 1
+set CLL-10-4 random-normal 0 1
+set CLL-10-5 random-normal 0 1
+set CLL-10-6 random-normal 0 1
+set CLL-10-7 random-normal 0 1
+set CLL-10-8 random-normal 0 1
+set CLL-10-9 random-normal 0 1
+set CLL-10-11 random-normal 0 1
+set CLL-10-12 random-normal 0 1
+set CLL-10-13 random-normal 0 1
+set CLL-10-14 random-normal 0 1
+set CLL-10-15 random-normal 0 1
+set CLL-10-16 random-normal 0 1
+set CLL-10-17 random-normal 0 1
+set CLL-10-18 random-normal 0 1
+set CLL-10-19 random-normal 0 1
+set CLL-10-20 random-normal 0 1
+set CLL-10-21 random-normal 0 1
+set CLL-10-22 random-normal 0 1
+set CLL-10-23 random-normal 0 1
+set CLL-10-24 random-normal 0 1
+set CLL-10-25 random-normal 0 1
+set CLL-10-26 random-normal 0 1
+set CLL-10-27 random-normal 0 1
+set CLL-10-28 random-normal 0 1
+set CLL-10-29 random-normal 0 1
+set CLL-11-0 random-normal 0 1
+set CLL-11-1 random-normal 0 1
+set CLL-11-2 random-normal 0 1
+set CLL-11-3 random-normal 0 1
+set CLL-11-4 random-normal 0 1
+set CLL-11-5 random-normal 0 1
+set CLL-11-6 random-normal 0 1
+set CLL-11-7 random-normal 0 1
+set CLL-11-8 random-normal 0 1
+set CLL-11-9 random-normal 0 1
+set CLL-11-10 random-normal 0 1
+set CLL-11-12 random-normal 0 1
+set CLL-11-13 random-normal 0 1
+set CLL-11-14 random-normal 0 1
+set CLL-11-15 random-normal 0 1
+set CLL-11-16 random-normal 0 1
+set CLL-11-17 random-normal 0 1
+set CLL-11-18 random-normal 0 1
+set CLL-11-19 random-normal 0 1
+set CLL-11-20 random-normal 0 1
+set CLL-11-21 random-normal 0 1
+set CLL-11-22 random-normal 0 1
+set CLL-11-23 random-normal 0 1
+set CLL-11-24 random-normal 0 1
+set CLL-11-25 random-normal 0 1
+set CLL-11-26 random-normal 0 1
+set CLL-11-27 random-normal 0 1
+set CLL-11-28 random-normal 0 1
+set CLL-11-29 random-normal 0 1
+set CLL-12-0 random-normal 0 1
+set CLL-12-1 random-normal 0 1
+set CLL-12-2 random-normal 0 1
+set CLL-12-3 random-normal 0 1
+set CLL-12-4 random-normal 0 1
+set CLL-12-5 random-normal 0 1
+set CLL-12-6 random-normal 0 1
+set CLL-12-7 random-normal 0 1
+set CLL-12-8 random-normal 0 1
+set CLL-12-9 random-normal 0 1
+set CLL-12-10 random-normal 0 1
+set CLL-12-11 random-normal 0 1
+set CLL-12-13 random-normal 0 1
+set CLL-12-14 random-normal 0 1
+set CLL-12-15 random-normal 0 1
+set CLL-12-16 random-normal 0 1
+set CLL-12-17 random-normal 0 1
+set CLL-12-18 random-normal 0 1
+set CLL-12-19 random-normal 0 1
+set CLL-12-20 random-normal 0 1
+set CLL-12-21 random-normal 0 1
+set CLL-12-22 random-normal 0 1
+set CLL-12-23 random-normal 0 1
+set CLL-12-24 random-normal 0 1
+set CLL-12-25 random-normal 0 1
+set CLL-12-26 random-normal 0 1
+set CLL-12-27 random-normal 0 1
+set CLL-12-28 random-normal 0 1
+set CLL-12-29 random-normal 0 1
+set CLL-13-0 random-normal 0 1
+set CLL-13-1 random-normal 0 1
+set CLL-13-2 random-normal 0 1
+set CLL-13-3 random-normal 0 1
+set CLL-13-4 random-normal 0 1
+set CLL-13-5 random-normal 0 1
+set CLL-13-6 random-normal 0 1
+set CLL-13-7 random-normal 0 1
+set CLL-13-8 random-normal 0 1
+set CLL-13-9 random-normal 0 1
+set CLL-13-10 random-normal 0 1
+set CLL-13-11 random-normal 0 1
+set CLL-13-12 random-normal 0 1
+set CLL-13-14 random-normal 0 1
+set CLL-13-15 random-normal 0 1
+set CLL-13-16 random-normal 0 1
+set CLL-13-17 random-normal 0 1
+set CLL-13-18 random-normal 0 1
+set CLL-13-19 random-normal 0 1
+set CLL-13-20 random-normal 0 1
+set CLL-13-21 random-normal 0 1
+set CLL-13-22 random-normal 0 1
+set CLL-13-23 random-normal 0 1
+set CLL-13-24 random-normal 0 1
+set CLL-13-25 random-normal 0 1
+set CLL-13-26 random-normal 0 1
+set CLL-13-27 random-normal 0 1
+set CLL-13-28 random-normal 0 1
+set CLL-13-29 random-normal 0 1
+set CLL-14-0 random-normal 0 1
+set CLL-14-1 random-normal 0 1
+set CLL-14-2 random-normal 0 1
+set CLL-14-3 random-normal 0 1
+set CLL-14-4 random-normal 0 1
+set CLL-14-5 random-normal 0 1
+set CLL-14-6 random-normal 0 1
+set CLL-14-7 random-normal 0 1
+set CLL-14-8 random-normal 0 1
+set CLL-14-9 random-normal 0 1
+set CLL-14-10 random-normal 0 1
+set CLL-14-11 random-normal 0 1
+set CLL-14-12 random-normal 0 1
+set CLL-14-13 random-normal 0 1
+set CLL-14-15 random-normal 0 1
+set CLL-14-16 random-normal 0 1
+set CLL-14-17 random-normal 0 1
+set CLL-14-18 random-normal 0 1
+set CLL-14-19 random-normal 0 1
+set CLL-14-20 random-normal 0 1
+set CLL-14-21 random-normal 0 1
+set CLL-14-22 random-normal 0 1
+set CLL-14-23 random-normal 0 1
+set CLL-14-24 random-normal 0 1
+set CLL-14-25 random-normal 0 1
+set CLL-14-26 random-normal 0 1
+set CLL-14-27 random-normal 0 1
+set CLL-14-28 random-normal 0 1
+set CLL-14-29 random-normal 0 1
+set CLL-15-0 random-normal 0 1
+set CLL-15-1 random-normal 0 1
+set CLL-15-2 random-normal 0 1
+set CLL-15-3 random-normal 0 1
+set CLL-15-4 random-normal 0 1
+set CLL-15-5 random-normal 0 1
+set CLL-15-6 random-normal 0 1
+set CLL-15-7 random-normal 0 1
+set CLL-15-8 random-normal 0 1
+set CLL-15-9 random-normal 0 1
+set CLL-15-10 random-normal 0 1
+set CLL-15-11 random-normal 0 1
+set CLL-15-12 random-normal 0 1
+set CLL-15-13 random-normal 0 1
+set CLL-15-14 random-normal 0 1
+set CLL-15-16 random-normal 0 1
+set CLL-15-17 random-normal 0 1
+set CLL-15-18 random-normal 0 1
+set CLL-15-19 random-normal 0 1
+set CLL-15-20 random-normal 0 1
+set CLL-15-21 random-normal 0 1
+set CLL-15-22 random-normal 0 1
+set CLL-15-23 random-normal 0 1
+set CLL-15-24 random-normal 0 1
+set CLL-15-25 random-normal 0 1
+set CLL-15-26 random-normal 0 1
+set CLL-15-27 random-normal 0 1
+set CLL-15-28 random-normal 0 1
+set CLL-15-29 random-normal 0 1
+set CLL-16-0 random-normal 0 1
+set CLL-16-1 random-normal 0 1
+set CLL-16-2 random-normal 0 1
+set CLL-16-3 random-normal 0 1
+set CLL-16-4 random-normal 0 1
+set CLL-16-5 random-normal 0 1
+set CLL-16-6 random-normal 0 1
+set CLL-16-7 random-normal 0 1
+set CLL-16-8 random-normal 0 1
+set CLL-16-9 random-normal 0 1
+set CLL-16-10 random-normal 0 1
+set CLL-16-11 random-normal 0 1
+set CLL-16-12 random-normal 0 1
+set CLL-16-13 random-normal 0 1
+set CLL-16-14 random-normal 0 1
+set CLL-16-15 random-normal 0 1
+set CLL-16-17 random-normal 0 1
+set CLL-16-18 random-normal 0 1
+set CLL-16-19 random-normal 0 1
+set CLL-16-20 random-normal 0 1
+set CLL-16-21 random-normal 0 1
+set CLL-16-22 random-normal 0 1
+set CLL-16-23 random-normal 0 1
+set CLL-16-24 random-normal 0 1
+set CLL-16-25 random-normal 0 1
+set CLL-16-26 random-normal 0 1
+set CLL-16-27 random-normal 0 1
+set CLL-16-28 random-normal 0 1
+set CLL-16-29 random-normal 0 1
+set CLL-17-0 random-normal 0 1
+set CLL-17-1 random-normal 0 1
+set CLL-17-2 random-normal 0 1
+set CLL-17-3 random-normal 0 1
+set CLL-17-4 random-normal 0 1
+set CLL-17-5 random-normal 0 1
+set CLL-17-6 random-normal 0 1
+set CLL-17-7 random-normal 0 1
+set CLL-17-8 random-normal 0 1
+set CLL-17-9 random-normal 0 1
+set CLL-17-10 random-normal 0 1
+set CLL-17-11 random-normal 0 1
+set CLL-17-12 random-normal 0 1
+set CLL-17-13 random-normal 0 1
+set CLL-17-14 random-normal 0 1
+set CLL-17-15 random-normal 0 1
+set CLL-17-16 random-normal 0 1
+set CLL-17-18 random-normal 0 1
+set CLL-17-19 random-normal 0 1
+set CLL-17-20 random-normal 0 1
+set CLL-17-21 random-normal 0 1
+set CLL-17-22 random-normal 0 1
+set CLL-17-23 random-normal 0 1
+set CLL-17-24 random-normal 0 1
+set CLL-17-25 random-normal 0 1
+set CLL-17-26 random-normal 0 1
+set CLL-17-27 random-normal 0 1
+set CLL-17-28 random-normal 0 1
+set CLL-17-29 random-normal 0 1
+set CLL-18-0 random-normal 0 1
+set CLL-18-1 random-normal 0 1
+set CLL-18-2 random-normal 0 1
+set CLL-18-3 random-normal 0 1
+set CLL-18-4 random-normal 0 1
+set CLL-18-5 random-normal 0 1
+set CLL-18-6 random-normal 0 1
+set CLL-18-7 random-normal 0 1
+set CLL-18-8 random-normal 0 1
+set CLL-18-9 random-normal 0 1
+set CLL-18-10 random-normal 0 1
+set CLL-18-11 random-normal 0 1
+set CLL-18-12 random-normal 0 1
+set CLL-18-13 random-normal 0 1
+set CLL-18-14 random-normal 0 1
+set CLL-18-15 random-normal 0 1
+set CLL-18-16 random-normal 0 1
+set CLL-18-17 random-normal 0 1
+set CLL-18-19 random-normal 0 1
+set CLL-18-20 random-normal 0 1
+set CLL-18-21 random-normal 0 1
+set CLL-18-22 random-normal 0 1
+set CLL-18-23 random-normal 0 1
+set CLL-18-24 random-normal 0 1
+set CLL-18-25 random-normal 0 1
+set CLL-18-26 random-normal 0 1
+set CLL-18-27 random-normal 0 1
+set CLL-18-28 random-normal 0 1
+set CLL-18-29 random-normal 0 1
+set CLL-19-0 random-normal 0 1
+set CLL-19-1 random-normal 0 1
+set CLL-19-2 random-normal 0 1
+set CLL-19-3 random-normal 0 1
+set CLL-19-4 random-normal 0 1
+set CLL-19-5 random-normal 0 1
+set CLL-19-6 random-normal 0 1
+set CLL-19-7 random-normal 0 1
+set CLL-19-8 random-normal 0 1
+set CLL-19-9 random-normal 0 1
+set CLL-19-10 random-normal 0 1
+set CLL-19-11 random-normal 0 1
+set CLL-19-12 random-normal 0 1
+set CLL-19-13 random-normal 0 1
+set CLL-19-14 random-normal 0 1
+set CLL-19-15 random-normal 0 1
+set CLL-19-16 random-normal 0 1
+set CLL-19-17 random-normal 0 1
+set CLL-19-18 random-normal 0 1
+set CLL-19-20 random-normal 0 1
+set CLL-19-21 random-normal 0 1
+set CLL-19-22 random-normal 0 1
+set CLL-19-23 random-normal 0 1
+set CLL-19-24 random-normal 0 1
+set CLL-19-25 random-normal 0 1
+set CLL-19-26 random-normal 0 1
+set CLL-19-27 random-normal 0 1
+set CLL-19-28 random-normal 0 1
+set CLL-19-29 random-normal 0 1
+set CLL-20-0 random-normal 0 1
+set CLL-20-1 random-normal 0 1
+set CLL-20-2 random-normal 0 1
+set CLL-20-3 random-normal 0 1
+set CLL-20-4 random-normal 0 1
+set CLL-20-5 random-normal 0 1
+set CLL-20-6 random-normal 0 1
+set CLL-20-7 random-normal 0 1
+set CLL-20-8 random-normal 0 1
+set CLL-20-9 random-normal 0 1
+set CLL-20-10 random-normal 0 1
+set CLL-20-11 random-normal 0 1
+set CLL-20-12 random-normal 0 1
+set CLL-20-13 random-normal 0 1
+set CLL-20-14 random-normal 0 1
+set CLL-20-15 random-normal 0 1
+set CLL-20-16 random-normal 0 1
+set CLL-20-17 random-normal 0 1
+set CLL-20-18 random-normal 0 1
+set CLL-20-19 random-normal 0 1
+set CLL-20-21 random-normal 0 1
+set CLL-20-22 random-normal 0 1
+set CLL-20-23 random-normal 0 1
+set CLL-20-24 random-normal 0 1
+set CLL-20-25 random-normal 0 1
+set CLL-20-26 random-normal 0 1
+set CLL-20-27 random-normal 0 1
+set CLL-20-28 random-normal 0 1
+set CLL-20-29 random-normal 0 1
+set CLL-21-0 random-normal 0 1
+set CLL-21-1 random-normal 0 1
+set CLL-21-2 random-normal 0 1
+set CLL-21-3 random-normal 0 1
+set CLL-21-4 random-normal 0 1
+set CLL-21-5 random-normal 0 1
+set CLL-21-6 random-normal 0 1
+set CLL-21-7 random-normal 0 1
+set CLL-21-8 random-normal 0 1
+set CLL-21-9 random-normal 0 1
+set CLL-21-10 random-normal 0 1
+set CLL-21-11 random-normal 0 1
+set CLL-21-12 random-normal 0 1
+set CLL-21-13 random-normal 0 1
+set CLL-21-14 random-normal 0 1
+set CLL-21-15 random-normal 0 1
+set CLL-21-16 random-normal 0 1
+set CLL-21-17 random-normal 0 1
+set CLL-21-18 random-normal 0 1
+set CLL-21-19 random-normal 0 1
+set CLL-21-20 random-normal 0 1
+set CLL-21-22 random-normal 0 1
+set CLL-21-23 random-normal 0 1
+set CLL-21-24 random-normal 0 1
+set CLL-21-25 random-normal 0 1
+set CLL-21-26 random-normal 0 1
+set CLL-21-27 random-normal 0 1
+set CLL-21-28 random-normal 0 1
+set CLL-21-29 random-normal 0 1
+set CLL-22-0 random-normal 0 1
+set CLL-22-1 random-normal 0 1
+set CLL-22-2 random-normal 0 1
+set CLL-22-3 random-normal 0 1
+set CLL-22-4 random-normal 0 1
+set CLL-22-5 random-normal 0 1
+set CLL-22-6 random-normal 0 1
+set CLL-22-7 random-normal 0 1
+set CLL-22-8 random-normal 0 1
+set CLL-22-9 random-normal 0 1
+set CLL-22-10 random-normal 0 1
+set CLL-22-11 random-normal 0 1
+set CLL-22-12 random-normal 0 1
+set CLL-22-13 random-normal 0 1
+set CLL-22-14 random-normal 0 1
+set CLL-22-15 random-normal 0 1
+set CLL-22-16 random-normal 0 1
+set CLL-22-17 random-normal 0 1
+set CLL-22-18 random-normal 0 1
+set CLL-22-19 random-normal 0 1
+set CLL-22-20 random-normal 0 1
+set CLL-22-21 random-normal 0 1
+set CLL-22-23 random-normal 0 1
+set CLL-22-24 random-normal 0 1
+set CLL-22-25 random-normal 0 1
+set CLL-22-26 random-normal 0 1
+set CLL-22-27 random-normal 0 1
+set CLL-22-28 random-normal 0 1
+set CLL-22-29 random-normal 0 1
+set CLL-23-0 random-normal 0 1
+set CLL-23-1 random-normal 0 1
+set CLL-23-2 random-normal 0 1
+set CLL-23-3 random-normal 0 1
+set CLL-23-4 random-normal 0 1
+set CLL-23-5 random-normal 0 1
+set CLL-23-6 random-normal 0 1
+set CLL-23-7 random-normal 0 1
+set CLL-23-8 random-normal 0 1
+set CLL-23-9 random-normal 0 1
+set CLL-23-10 random-normal 0 1
+set CLL-23-11 random-normal 0 1
+set CLL-23-12 random-normal 0 1
+set CLL-23-13 random-normal 0 1
+set CLL-23-14 random-normal 0 1
+set CLL-23-15 random-normal 0 1
+set CLL-23-16 random-normal 0 1
+set CLL-23-17 random-normal 0 1
+set CLL-23-18 random-normal 0 1
+set CLL-23-19 random-normal 0 1
+set CLL-23-20 random-normal 0 1
+set CLL-23-21 random-normal 0 1
+set CLL-23-22 random-normal 0 1
+set CLL-23-24 random-normal 0 1
+set CLL-23-25 random-normal 0 1
+set CLL-23-26 random-normal 0 1
+set CLL-23-27 random-normal 0 1
+set CLL-23-28 random-normal 0 1
+set CLL-23-29 random-normal 0 1
+set CLL-24-0 random-normal 0 1
+set CLL-24-1 random-normal 0 1
+set CLL-24-2 random-normal 0 1
+set CLL-24-3 random-normal 0 1
+set CLL-24-4 random-normal 0 1
+set CLL-24-5 random-normal 0 1
+set CLL-24-6 random-normal 0 1
+set CLL-24-7 random-normal 0 1
+set CLL-24-8 random-normal 0 1
+set CLL-24-9 random-normal 0 1
+set CLL-24-10 random-normal 0 1
+set CLL-24-11 random-normal 0 1
+set CLL-24-12 random-normal 0 1
+set CLL-24-13 random-normal 0 1
+set CLL-24-14 random-normal 0 1
+set CLL-24-15 random-normal 0 1
+set CLL-24-16 random-normal 0 1
+set CLL-24-17 random-normal 0 1
+set CLL-24-18 random-normal 0 1
+set CLL-24-19 random-normal 0 1
+set CLL-24-20 random-normal 0 1
+set CLL-24-21 random-normal 0 1
+set CLL-24-22 random-normal 0 1
+set CLL-24-23 random-normal 0 1
+set CLL-24-25 random-normal 0 1
+set CLL-24-26 random-normal 0 1
+set CLL-24-27 random-normal 0 1
+set CLL-24-28 random-normal 0 1
+set CLL-24-29 random-normal 0 1
+set CLL-25-0 random-normal 0 1
+set CLL-25-1 random-normal 0 1
+set CLL-25-2 random-normal 0 1
+set CLL-25-3 random-normal 0 1
+set CLL-25-4 random-normal 0 1
+set CLL-25-5 random-normal 0 1
+set CLL-25-6 random-normal 0 1
+set CLL-25-7 random-normal 0 1
+set CLL-25-8 random-normal 0 1
+set CLL-25-9 random-normal 0 1
+set CLL-25-10 random-normal 0 1
+set CLL-25-11 random-normal 0 1
+set CLL-25-12 random-normal 0 1
+set CLL-25-13 random-normal 0 1
+set CLL-25-14 random-normal 0 1
+set CLL-25-15 random-normal 0 1
+set CLL-25-16 random-normal 0 1
+set CLL-25-17 random-normal 0 1
+set CLL-25-18 random-normal 0 1
+set CLL-25-19 random-normal 0 1
+set CLL-25-20 random-normal 0 1
+set CLL-25-21 random-normal 0 1
+set CLL-25-22 random-normal 0 1
+set CLL-25-23 random-normal 0 1
+set CLL-25-24 random-normal 0 1
+set CLL-25-26 random-normal 0 1
+set CLL-25-27 random-normal 0 1
+set CLL-25-28 random-normal 0 1
+set CLL-25-29 random-normal 0 1
+set CLL-26-0 random-normal 0 1
+set CLL-26-1 random-normal 0 1
+set CLL-26-2 random-normal 0 1
+set CLL-26-3 random-normal 0 1
+set CLL-26-4 random-normal 0 1
+set CLL-26-5 random-normal 0 1
+set CLL-26-6 random-normal 0 1
+set CLL-26-7 random-normal 0 1
+set CLL-26-8 random-normal 0 1
+set CLL-26-9 random-normal 0 1
+set CLL-26-10 random-normal 0 1
+set CLL-26-11 random-normal 0 1
+set CLL-26-12 random-normal 0 1
+set CLL-26-13 random-normal 0 1
+set CLL-26-14 random-normal 0 1
+set CLL-26-15 random-normal 0 1
+set CLL-26-16 random-normal 0 1
+set CLL-26-17 random-normal 0 1
+set CLL-26-18 random-normal 0 1
+set CLL-26-19 random-normal 0 1
+set CLL-26-20 random-normal 0 1
+set CLL-26-21 random-normal 0 1
+set CLL-26-22 random-normal 0 1
+set CLL-26-23 random-normal 0 1
+set CLL-26-24 random-normal 0 1
+set CLL-26-25 random-normal 0 1
+set CLL-26-27 random-normal 0 1
+set CLL-26-28 random-normal 0 1
+set CLL-26-29 random-normal 0 1
+set CLL-27-0 random-normal 0 1
+set CLL-27-1 random-normal 0 1
+set CLL-27-2 random-normal 0 1
+set CLL-27-3 random-normal 0 1
+set CLL-27-4 random-normal 0 1
+set CLL-27-5 random-normal 0 1
+set CLL-27-6 random-normal 0 1
+set CLL-27-7 random-normal 0 1
+set CLL-27-8 random-normal 0 1
+set CLL-27-9 random-normal 0 1
+set CLL-27-10 random-normal 0 1
+set CLL-27-11 random-normal 0 1
+set CLL-27-12 random-normal 0 1
+set CLL-27-13 random-normal 0 1
+set CLL-27-14 random-normal 0 1
+set CLL-27-15 random-normal 0 1
+set CLL-27-16 random-normal 0 1
+set CLL-27-17 random-normal 0 1
+set CLL-27-18 random-normal 0 1
+set CLL-27-19 random-normal 0 1
+set CLL-27-20 random-normal 0 1
+set CLL-27-21 random-normal 0 1
+set CLL-27-22 random-normal 0 1
+set CLL-27-23 random-normal 0 1
+set CLL-27-24 random-normal 0 1
+set CLL-27-25 random-normal 0 1
+set CLL-27-26 random-normal 0 1
+set CLL-27-28 random-normal 0 1
+set CLL-27-29 random-normal 0 1
+set CLL-28-0 random-normal 0 1
+set CLL-28-1 random-normal 0 1
+set CLL-28-2 random-normal 0 1
+set CLL-28-3 random-normal 0 1
+set CLL-28-4 random-normal 0 1
+set CLL-28-5 random-normal 0 1
+set CLL-28-6 random-normal 0 1
+set CLL-28-7 random-normal 0 1
+set CLL-28-8 random-normal 0 1
+set CLL-28-9 random-normal 0 1
+set CLL-28-10 random-normal 0 1
+set CLL-28-11 random-normal 0 1
+set CLL-28-12 random-normal 0 1
+set CLL-28-13 random-normal 0 1
+set CLL-28-14 random-normal 0 1
+set CLL-28-15 random-normal 0 1
+set CLL-28-16 random-normal 0 1
+set CLL-28-17 random-normal 0 1
+set CLL-28-18 random-normal 0 1
+set CLL-28-19 random-normal 0 1
+set CLL-28-20 random-normal 0 1
+set CLL-28-21 random-normal 0 1
+set CLL-28-22 random-normal 0 1
+set CLL-28-23 random-normal 0 1
+set CLL-28-24 random-normal 0 1
+set CLL-28-25 random-normal 0 1
+set CLL-28-26 random-normal 0 1
+set CLL-28-27 random-normal 0 1
+set CLL-28-29 random-normal 0 1
+set CLL-29-0 random-normal 0 1
+set CLL-29-1 random-normal 0 1
+set CLL-29-2 random-normal 0 1
+set CLL-29-3 random-normal 0 1
+set CLL-29-4 random-normal 0 1
+set CLL-29-5 random-normal 0 1
+set CLL-29-6 random-normal 0 1
+set CLL-29-7 random-normal 0 1
+set CLL-29-8 random-normal 0 1
+set CLL-29-9 random-normal 0 1
+set CLL-29-10 random-normal 0 1
+set CLL-29-11 random-normal 0 1
+set CLL-29-12 random-normal 0 1
+set CLL-29-13 random-normal 0 1
+set CLL-29-14 random-normal 0 1
+set CLL-29-15 random-normal 0 1
+set CLL-29-16 random-normal 0 1
+set CLL-29-17 random-normal 0 1
+set CLL-29-18 random-normal 0 1
+set CLL-29-19 random-normal 0 1
+set CLL-29-20 random-normal 0 1
+set CLL-29-21 random-normal 0 1
+set CLL-29-22 random-normal 0 1
+set CLL-29-23 random-normal 0 1
+set CLL-29-24 random-normal 0 1
+set CLL-29-25 random-normal 0 1
+set CLL-29-26 random-normal 0 1
+set CLL-29-27 random-normal 0 1
+set CLL-29-28 random-normal 0 1
+
+
+
+set CLL-0-1 random-normal CLL-0-1 stdv
+set CLL-0-2 random-normal CLL-0-2 stdv
+set CLL-0-3 random-normal CLL-0-3 stdv
+set CLL-0-4 random-normal CLL-0-4 stdv
+set CLL-0-5 random-normal CLL-0-5 stdv
+set CLL-0-6 random-normal CLL-0-6 stdv
+set CLL-0-7 random-normal CLL-0-7 stdv
+set CLL-0-8 random-normal CLL-0-8 stdv
+set CLL-0-9 random-normal CLL-0-9 stdv
+set CLL-0-10 random-normal CLL-0-10 stdv
+set CLL-0-11 random-normal CLL-0-11 stdv
+set CLL-0-12 random-normal CLL-0-12 stdv
+set CLL-0-13 random-normal CLL-0-13 stdv
+set CLL-0-14 random-normal CLL-0-14 stdv
+set CLL-0-15 random-normal CLL-0-15 stdv
+set CLL-0-16 random-normal CLL-0-16 stdv
+set CLL-0-17 random-normal CLL-0-17 stdv
+set CLL-0-18 random-normal CLL-0-18 stdv
+set CLL-0-19 random-normal CLL-0-19 stdv
+set CLL-0-20 random-normal CLL-0-20 stdv
+set CLL-0-21 random-normal CLL-0-21 stdv
+set CLL-0-22 random-normal CLL-0-22 stdv
+set CLL-0-23 random-normal CLL-0-23 stdv
+set CLL-0-24 random-normal CLL-0-24 stdv
+set CLL-0-25 random-normal CLL-0-25 stdv
+set CLL-0-26 random-normal CLL-0-26 stdv
+set CLL-0-27 random-normal CLL-0-27 stdv
+set CLL-0-28 random-normal CLL-0-28 stdv
+set CLL-0-29 random-normal CLL-0-29 stdv
+set CLL-1-0 random-normal CLL-1-0 stdv
+set CLL-1-2 random-normal CLL-1-2 stdv
+set CLL-1-3 random-normal CLL-1-3 stdv
+set CLL-1-4 random-normal CLL-1-4 stdv
+set CLL-1-5 random-normal CLL-1-5 stdv
+set CLL-1-6 random-normal CLL-1-6 stdv
+set CLL-1-7 random-normal CLL-1-7 stdv
+set CLL-1-8 random-normal CLL-1-8 stdv
+set CLL-1-9 random-normal CLL-1-9 stdv
+set CLL-1-10 random-normal CLL-1-10 stdv
+set CLL-1-11 random-normal CLL-1-11 stdv
+set CLL-1-12 random-normal CLL-1-12 stdv
+set CLL-1-13 random-normal CLL-1-13 stdv
+set CLL-1-14 random-normal CLL-1-14 stdv
+set CLL-1-15 random-normal CLL-1-15 stdv
+set CLL-1-16 random-normal CLL-1-16 stdv
+set CLL-1-17 random-normal CLL-1-17 stdv
+set CLL-1-18 random-normal CLL-1-18 stdv
+set CLL-1-19 random-normal CLL-1-19 stdv
+set CLL-1-20 random-normal CLL-1-20 stdv
+set CLL-1-21 random-normal CLL-1-21 stdv
+set CLL-1-22 random-normal CLL-1-22 stdv
+set CLL-1-23 random-normal CLL-1-23 stdv
+set CLL-1-24 random-normal CLL-1-24 stdv
+set CLL-1-25 random-normal CLL-1-25 stdv
+set CLL-1-26 random-normal CLL-1-26 stdv
+set CLL-1-27 random-normal CLL-1-27 stdv
+set CLL-1-28 random-normal CLL-1-28 stdv
+set CLL-1-29 random-normal CLL-1-29 stdv
+set CLL-2-0 random-normal CLL-2-0 stdv
+set CLL-2-1 random-normal CLL-2-1 stdv
+set CLL-2-3 random-normal CLL-2-3 stdv
+set CLL-2-4 random-normal CLL-2-4 stdv
+set CLL-2-5 random-normal CLL-2-5 stdv
+set CLL-2-6 random-normal CLL-2-6 stdv
+set CLL-2-7 random-normal CLL-2-7 stdv
+set CLL-2-8 random-normal CLL-2-8 stdv
+set CLL-2-9 random-normal CLL-2-9 stdv
+set CLL-2-10 random-normal CLL-2-10 stdv
+set CLL-2-11 random-normal CLL-2-11 stdv
+set CLL-2-12 random-normal CLL-2-12 stdv
+set CLL-2-13 random-normal CLL-2-13 stdv
+set CLL-2-14 random-normal CLL-2-14 stdv
+set CLL-2-15 random-normal CLL-2-15 stdv
+set CLL-2-16 random-normal CLL-2-16 stdv
+set CLL-2-17 random-normal CLL-2-17 stdv
+set CLL-2-18 random-normal CLL-2-18 stdv
+set CLL-2-19 random-normal CLL-2-19 stdv
+set CLL-2-20 random-normal CLL-2-20 stdv
+set CLL-2-21 random-normal CLL-2-21 stdv
+set CLL-2-22 random-normal CLL-2-22 stdv
+set CLL-2-23 random-normal CLL-2-23 stdv
+set CLL-2-24 random-normal CLL-2-24 stdv
+set CLL-2-25 random-normal CLL-2-25 stdv
+set CLL-2-26 random-normal CLL-2-26 stdv
+set CLL-2-27 random-normal CLL-2-27 stdv
+set CLL-2-28 random-normal CLL-2-28 stdv
+set CLL-2-29 random-normal CLL-2-29 stdv
+set CLL-3-0 random-normal CLL-3-0 stdv
+set CLL-3-1 random-normal CLL-3-1 stdv
+set CLL-3-2 random-normal CLL-3-2 stdv
+set CLL-3-4 random-normal CLL-3-4 stdv
+set CLL-3-5 random-normal CLL-3-5 stdv
+set CLL-3-6 random-normal CLL-3-6 stdv
+set CLL-3-7 random-normal CLL-3-7 stdv
+set CLL-3-8 random-normal CLL-3-8 stdv
+set CLL-3-9 random-normal CLL-3-9 stdv
+set CLL-3-10 random-normal CLL-3-10 stdv
+set CLL-3-11 random-normal CLL-3-11 stdv
+set CLL-3-12 random-normal CLL-3-12 stdv
+set CLL-3-13 random-normal CLL-3-13 stdv
+set CLL-3-14 random-normal CLL-3-14 stdv
+set CLL-3-15 random-normal CLL-3-15 stdv
+set CLL-3-16 random-normal CLL-3-16 stdv
+set CLL-3-17 random-normal CLL-3-17 stdv
+set CLL-3-18 random-normal CLL-3-18 stdv
+set CLL-3-19 random-normal CLL-3-19 stdv
+set CLL-3-20 random-normal CLL-3-20 stdv
+set CLL-3-21 random-normal CLL-3-21 stdv
+set CLL-3-22 random-normal CLL-3-22 stdv
+set CLL-3-23 random-normal CLL-3-23 stdv
+set CLL-3-24 random-normal CLL-3-24 stdv
+set CLL-3-25 random-normal CLL-3-25 stdv
+set CLL-3-26 random-normal CLL-3-26 stdv
+set CLL-3-27 random-normal CLL-3-27 stdv
+set CLL-3-28 random-normal CLL-3-28 stdv
+set CLL-3-29 random-normal CLL-3-29 stdv
+set CLL-4-0 random-normal CLL-4-0 stdv
+set CLL-4-1 random-normal CLL-4-1 stdv
+set CLL-4-2 random-normal CLL-4-2 stdv
+set CLL-4-3 random-normal CLL-4-3 stdv
+set CLL-4-5 random-normal CLL-4-5 stdv
+set CLL-4-6 random-normal CLL-4-6 stdv
+set CLL-4-7 random-normal CLL-4-7 stdv
+set CLL-4-8 random-normal CLL-4-8 stdv
+set CLL-4-9 random-normal CLL-4-9 stdv
+set CLL-4-10 random-normal CLL-4-10 stdv
+set CLL-4-11 random-normal CLL-4-11 stdv
+set CLL-4-12 random-normal CLL-4-12 stdv
+set CLL-4-13 random-normal CLL-4-13 stdv
+set CLL-4-14 random-normal CLL-4-14 stdv
+set CLL-4-15 random-normal CLL-4-15 stdv
+set CLL-4-16 random-normal CLL-4-16 stdv
+set CLL-4-17 random-normal CLL-4-17 stdv
+set CLL-4-18 random-normal CLL-4-18 stdv
+set CLL-4-19 random-normal CLL-4-19 stdv
+set CLL-4-20 random-normal CLL-4-20 stdv
+set CLL-4-21 random-normal CLL-4-21 stdv
+set CLL-4-22 random-normal CLL-4-22 stdv
+set CLL-4-23 random-normal CLL-4-23 stdv
+set CLL-4-24 random-normal CLL-4-24 stdv
+set CLL-4-25 random-normal CLL-4-25 stdv
+set CLL-4-26 random-normal CLL-4-26 stdv
+set CLL-4-27 random-normal CLL-4-27 stdv
+set CLL-4-28 random-normal CLL-4-28 stdv
+set CLL-4-29 random-normal CLL-4-29 stdv
+set CLL-5-0 random-normal CLL-5-0 stdv
+set CLL-5-1 random-normal CLL-5-1 stdv
+set CLL-5-2 random-normal CLL-5-2 stdv
+set CLL-5-3 random-normal CLL-5-3 stdv
+set CLL-5-4 random-normal CLL-5-4 stdv
+set CLL-5-6 random-normal CLL-5-6 stdv
+set CLL-5-7 random-normal CLL-5-7 stdv
+set CLL-5-8 random-normal CLL-5-8 stdv
+set CLL-5-9 random-normal CLL-5-9 stdv
+set CLL-5-10 random-normal CLL-5-10 stdv
+set CLL-5-11 random-normal CLL-5-11 stdv
+set CLL-5-12 random-normal CLL-5-12 stdv
+set CLL-5-13 random-normal CLL-5-13 stdv
+set CLL-5-14 random-normal CLL-5-14 stdv
+set CLL-5-15 random-normal CLL-5-15 stdv
+set CLL-5-16 random-normal CLL-5-16 stdv
+set CLL-5-17 random-normal CLL-5-17 stdv
+set CLL-5-18 random-normal CLL-5-18 stdv
+set CLL-5-19 random-normal CLL-5-19 stdv
+set CLL-5-20 random-normal CLL-5-20 stdv
+set CLL-5-21 random-normal CLL-5-21 stdv
+set CLL-5-22 random-normal CLL-5-22 stdv
+set CLL-5-23 random-normal CLL-5-23 stdv
+set CLL-5-24 random-normal CLL-5-24 stdv
+set CLL-5-25 random-normal CLL-5-25 stdv
+set CLL-5-26 random-normal CLL-5-26 stdv
+set CLL-5-27 random-normal CLL-5-27 stdv
+set CLL-5-28 random-normal CLL-5-28 stdv
+set CLL-5-29 random-normal CLL-5-29 stdv
+set CLL-6-0 random-normal CLL-6-0 stdv
+set CLL-6-1 random-normal CLL-6-1 stdv
+set CLL-6-2 random-normal CLL-6-2 stdv
+set CLL-6-3 random-normal CLL-6-3 stdv
+set CLL-6-4 random-normal CLL-6-4 stdv
+set CLL-6-5 random-normal CLL-6-5 stdv
+set CLL-6-7 random-normal CLL-6-7 stdv
+set CLL-6-8 random-normal CLL-6-8 stdv
+set CLL-6-9 random-normal CLL-6-9 stdv
+set CLL-6-10 random-normal CLL-6-10 stdv
+set CLL-6-11 random-normal CLL-6-11 stdv
+set CLL-6-12 random-normal CLL-6-12 stdv
+set CLL-6-13 random-normal CLL-6-13 stdv
+set CLL-6-14 random-normal CLL-6-14 stdv
+set CLL-6-15 random-normal CLL-6-15 stdv
+set CLL-6-16 random-normal CLL-6-16 stdv
+set CLL-6-17 random-normal CLL-6-17 stdv
+set CLL-6-18 random-normal CLL-6-18 stdv
+set CLL-6-19 random-normal CLL-6-19 stdv
+set CLL-6-20 random-normal CLL-6-20 stdv
+set CLL-6-21 random-normal CLL-6-21 stdv
+set CLL-6-22 random-normal CLL-6-22 stdv
+set CLL-6-23 random-normal CLL-6-23 stdv
+set CLL-6-24 random-normal CLL-6-24 stdv
+set CLL-6-25 random-normal CLL-6-25 stdv
+set CLL-6-26 random-normal CLL-6-26 stdv
+set CLL-6-27 random-normal CLL-6-27 stdv
+set CLL-6-28 random-normal CLL-6-28 stdv
+set CLL-6-29 random-normal CLL-6-29 stdv
+set CLL-7-0 random-normal CLL-7-0 stdv
+set CLL-7-1 random-normal CLL-7-1 stdv
+set CLL-7-2 random-normal CLL-7-2 stdv
+set CLL-7-3 random-normal CLL-7-3 stdv
+set CLL-7-4 random-normal CLL-7-4 stdv
+set CLL-7-5 random-normal CLL-7-5 stdv
+set CLL-7-6 random-normal CLL-7-6 stdv
+set CLL-7-8 random-normal CLL-7-8 stdv
+set CLL-7-9 random-normal CLL-7-9 stdv
+set CLL-7-10 random-normal CLL-7-10 stdv
+set CLL-7-11 random-normal CLL-7-11 stdv
+set CLL-7-12 random-normal CLL-7-12 stdv
+set CLL-7-13 random-normal CLL-7-13 stdv
+set CLL-7-14 random-normal CLL-7-14 stdv
+set CLL-7-15 random-normal CLL-7-15 stdv
+set CLL-7-16 random-normal CLL-7-16 stdv
+set CLL-7-17 random-normal CLL-7-17 stdv
+set CLL-7-18 random-normal CLL-7-18 stdv
+set CLL-7-19 random-normal CLL-7-19 stdv
+set CLL-7-20 random-normal CLL-7-20 stdv
+set CLL-7-21 random-normal CLL-7-21 stdv
+set CLL-7-22 random-normal CLL-7-22 stdv
+set CLL-7-23 random-normal CLL-7-23 stdv
+set CLL-7-24 random-normal CLL-7-24 stdv
+set CLL-7-25 random-normal CLL-7-25 stdv
+set CLL-7-26 random-normal CLL-7-26 stdv
+set CLL-7-27 random-normal CLL-7-27 stdv
+set CLL-7-28 random-normal CLL-7-28 stdv
+set CLL-7-29 random-normal CLL-7-29 stdv
+set CLL-8-0 random-normal CLL-8-0 stdv
+set CLL-8-1 random-normal CLL-8-1 stdv
+set CLL-8-2 random-normal CLL-8-2 stdv
+set CLL-8-3 random-normal CLL-8-3 stdv
+set CLL-8-4 random-normal CLL-8-4 stdv
+set CLL-8-5 random-normal CLL-8-5 stdv
+set CLL-8-6 random-normal CLL-8-6 stdv
+set CLL-8-7 random-normal CLL-8-7 stdv
+set CLL-8-9 random-normal CLL-8-9 stdv
+set CLL-8-10 random-normal CLL-8-10 stdv
+set CLL-8-11 random-normal CLL-8-11 stdv
+set CLL-8-12 random-normal CLL-8-12 stdv
+set CLL-8-13 random-normal CLL-8-13 stdv
+set CLL-8-14 random-normal CLL-8-14 stdv
+set CLL-8-15 random-normal CLL-8-15 stdv
+set CLL-8-16 random-normal CLL-8-16 stdv
+set CLL-8-17 random-normal CLL-8-17 stdv
+set CLL-8-18 random-normal CLL-8-18 stdv
+set CLL-8-19 random-normal CLL-8-19 stdv
+set CLL-8-20 random-normal CLL-8-20 stdv
+set CLL-8-21 random-normal CLL-8-21 stdv
+set CLL-8-22 random-normal CLL-8-22 stdv
+set CLL-8-23 random-normal CLL-8-23 stdv
+set CLL-8-24 random-normal CLL-8-24 stdv
+set CLL-8-25 random-normal CLL-8-25 stdv
+set CLL-8-26 random-normal CLL-8-26 stdv
+set CLL-8-27 random-normal CLL-8-27 stdv
+set CLL-8-28 random-normal CLL-8-28 stdv
+set CLL-8-29 random-normal CLL-8-29 stdv
+set CLL-9-0 random-normal CLL-9-0 stdv
+set CLL-9-1 random-normal CLL-9-1 stdv
+set CLL-9-2 random-normal CLL-9-2 stdv
+set CLL-9-3 random-normal CLL-9-3 stdv
+set CLL-9-4 random-normal CLL-9-4 stdv
+set CLL-9-5 random-normal CLL-9-5 stdv
+set CLL-9-6 random-normal CLL-9-6 stdv
+set CLL-9-7 random-normal CLL-9-7 stdv
+set CLL-9-8 random-normal CLL-9-8 stdv
+set CLL-9-10 random-normal CLL-9-10 stdv
+set CLL-9-11 random-normal CLL-9-11 stdv
+set CLL-9-12 random-normal CLL-9-12 stdv
+set CLL-9-13 random-normal CLL-9-13 stdv
+set CLL-9-14 random-normal CLL-9-14 stdv
+set CLL-9-15 random-normal CLL-9-15 stdv
+set CLL-9-16 random-normal CLL-9-16 stdv
+set CLL-9-17 random-normal CLL-9-17 stdv
+set CLL-9-18 random-normal CLL-9-18 stdv
+set CLL-9-19 random-normal CLL-9-19 stdv
+set CLL-9-20 random-normal CLL-9-20 stdv
+set CLL-9-21 random-normal CLL-9-21 stdv
+set CLL-9-22 random-normal CLL-9-22 stdv
+set CLL-9-23 random-normal CLL-9-23 stdv
+set CLL-9-24 random-normal CLL-9-24 stdv
+set CLL-9-25 random-normal CLL-9-25 stdv
+set CLL-9-26 random-normal CLL-9-26 stdv
+set CLL-9-27 random-normal CLL-9-27 stdv
+set CLL-9-28 random-normal CLL-9-28 stdv
+set CLL-9-29 random-normal CLL-9-29 stdv
+set CLL-10-0 random-normal CLL-10-0 stdv
+set CLL-10-1 random-normal CLL-10-1 stdv
+set CLL-10-2 random-normal CLL-10-2 stdv
+set CLL-10-3 random-normal CLL-10-3 stdv
+set CLL-10-4 random-normal CLL-10-4 stdv
+set CLL-10-5 random-normal CLL-10-5 stdv
+set CLL-10-6 random-normal CLL-10-6 stdv
+set CLL-10-7 random-normal CLL-10-7 stdv
+set CLL-10-8 random-normal CLL-10-8 stdv
+set CLL-10-9 random-normal CLL-10-9 stdv
+set CLL-10-11 random-normal CLL-10-11 stdv
+set CLL-10-12 random-normal CLL-10-12 stdv
+set CLL-10-13 random-normal CLL-10-13 stdv
+set CLL-10-14 random-normal CLL-10-14 stdv
+set CLL-10-15 random-normal CLL-10-15 stdv
+set CLL-10-16 random-normal CLL-10-16 stdv
+set CLL-10-17 random-normal CLL-10-17 stdv
+set CLL-10-18 random-normal CLL-10-18 stdv
+set CLL-10-19 random-normal CLL-10-19 stdv
+set CLL-10-20 random-normal CLL-10-20 stdv
+set CLL-10-21 random-normal CLL-10-21 stdv
+set CLL-10-22 random-normal CLL-10-22 stdv
+set CLL-10-23 random-normal CLL-10-23 stdv
+set CLL-10-24 random-normal CLL-10-24 stdv
+set CLL-10-25 random-normal CLL-10-25 stdv
+set CLL-10-26 random-normal CLL-10-26 stdv
+set CLL-10-27 random-normal CLL-10-27 stdv
+set CLL-10-28 random-normal CLL-10-28 stdv
+set CLL-10-29 random-normal CLL-10-29 stdv
+set CLL-11-0 random-normal CLL-11-0 stdv
+set CLL-11-1 random-normal CLL-11-1 stdv
+set CLL-11-2 random-normal CLL-11-2 stdv
+set CLL-11-3 random-normal CLL-11-3 stdv
+set CLL-11-4 random-normal CLL-11-4 stdv
+set CLL-11-5 random-normal CLL-11-5 stdv
+set CLL-11-6 random-normal CLL-11-6 stdv
+set CLL-11-7 random-normal CLL-11-7 stdv
+set CLL-11-8 random-normal CLL-11-8 stdv
+set CLL-11-9 random-normal CLL-11-9 stdv
+set CLL-11-10 random-normal CLL-11-10 stdv
+set CLL-11-12 random-normal CLL-11-12 stdv
+set CLL-11-13 random-normal CLL-11-13 stdv
+set CLL-11-14 random-normal CLL-11-14 stdv
+set CLL-11-15 random-normal CLL-11-15 stdv
+set CLL-11-16 random-normal CLL-11-16 stdv
+set CLL-11-17 random-normal CLL-11-17 stdv
+set CLL-11-18 random-normal CLL-11-18 stdv
+set CLL-11-19 random-normal CLL-11-19 stdv
+set CLL-11-20 random-normal CLL-11-20 stdv
+set CLL-11-21 random-normal CLL-11-21 stdv
+set CLL-11-22 random-normal CLL-11-22 stdv
+set CLL-11-23 random-normal CLL-11-23 stdv
+set CLL-11-24 random-normal CLL-11-24 stdv
+set CLL-11-25 random-normal CLL-11-25 stdv
+set CLL-11-26 random-normal CLL-11-26 stdv
+set CLL-11-27 random-normal CLL-11-27 stdv
+set CLL-11-28 random-normal CLL-11-28 stdv
+set CLL-11-29 random-normal CLL-11-29 stdv
+set CLL-12-0 random-normal CLL-12-0 stdv
+set CLL-12-1 random-normal CLL-12-1 stdv
+set CLL-12-2 random-normal CLL-12-2 stdv
+set CLL-12-3 random-normal CLL-12-3 stdv
+set CLL-12-4 random-normal CLL-12-4 stdv
+set CLL-12-5 random-normal CLL-12-5 stdv
+set CLL-12-6 random-normal CLL-12-6 stdv
+set CLL-12-7 random-normal CLL-12-7 stdv
+set CLL-12-8 random-normal CLL-12-8 stdv
+set CLL-12-9 random-normal CLL-12-9 stdv
+set CLL-12-10 random-normal CLL-12-10 stdv
+set CLL-12-11 random-normal CLL-12-11 stdv
+set CLL-12-13 random-normal CLL-12-13 stdv
+set CLL-12-14 random-normal CLL-12-14 stdv
+set CLL-12-15 random-normal CLL-12-15 stdv
+set CLL-12-16 random-normal CLL-12-16 stdv
+set CLL-12-17 random-normal CLL-12-17 stdv
+set CLL-12-18 random-normal CLL-12-18 stdv
+set CLL-12-19 random-normal CLL-12-19 stdv
+set CLL-12-20 random-normal CLL-12-20 stdv
+set CLL-12-21 random-normal CLL-12-21 stdv
+set CLL-12-22 random-normal CLL-12-22 stdv
+set CLL-12-23 random-normal CLL-12-23 stdv
+set CLL-12-24 random-normal CLL-12-24 stdv
+set CLL-12-25 random-normal CLL-12-25 stdv
+set CLL-12-26 random-normal CLL-12-26 stdv
+set CLL-12-27 random-normal CLL-12-27 stdv
+set CLL-12-28 random-normal CLL-12-28 stdv
+set CLL-12-29 random-normal CLL-12-29 stdv
+set CLL-13-0 random-normal CLL-13-0 stdv
+set CLL-13-1 random-normal CLL-13-1 stdv
+set CLL-13-2 random-normal CLL-13-2 stdv
+set CLL-13-3 random-normal CLL-13-3 stdv
+set CLL-13-4 random-normal CLL-13-4 stdv
+set CLL-13-5 random-normal CLL-13-5 stdv
+set CLL-13-6 random-normal CLL-13-6 stdv
+set CLL-13-7 random-normal CLL-13-7 stdv
+set CLL-13-8 random-normal CLL-13-8 stdv
+set CLL-13-9 random-normal CLL-13-9 stdv
+set CLL-13-10 random-normal CLL-13-10 stdv
+set CLL-13-11 random-normal CLL-13-11 stdv
+set CLL-13-12 random-normal CLL-13-12 stdv
+set CLL-13-14 random-normal CLL-13-14 stdv
+set CLL-13-15 random-normal CLL-13-15 stdv
+set CLL-13-16 random-normal CLL-13-16 stdv
+set CLL-13-17 random-normal CLL-13-17 stdv
+set CLL-13-18 random-normal CLL-13-18 stdv
+set CLL-13-19 random-normal CLL-13-19 stdv
+set CLL-13-20 random-normal CLL-13-20 stdv
+set CLL-13-21 random-normal CLL-13-21 stdv
+set CLL-13-22 random-normal CLL-13-22 stdv
+set CLL-13-23 random-normal CLL-13-23 stdv
+set CLL-13-24 random-normal CLL-13-24 stdv
+set CLL-13-25 random-normal CLL-13-25 stdv
+set CLL-13-26 random-normal CLL-13-26 stdv
+set CLL-13-27 random-normal CLL-13-27 stdv
+set CLL-13-28 random-normal CLL-13-28 stdv
+set CLL-13-29 random-normal CLL-13-29 stdv
+set CLL-14-0 random-normal CLL-14-0 stdv
+set CLL-14-1 random-normal CLL-14-1 stdv
+set CLL-14-2 random-normal CLL-14-2 stdv
+set CLL-14-3 random-normal CLL-14-3 stdv
+set CLL-14-4 random-normal CLL-14-4 stdv
+set CLL-14-5 random-normal CLL-14-5 stdv
+set CLL-14-6 random-normal CLL-14-6 stdv
+set CLL-14-7 random-normal CLL-14-7 stdv
+set CLL-14-8 random-normal CLL-14-8 stdv
+set CLL-14-9 random-normal CLL-14-9 stdv
+set CLL-14-10 random-normal CLL-14-10 stdv
+set CLL-14-11 random-normal CLL-14-11 stdv
+set CLL-14-12 random-normal CLL-14-12 stdv
+set CLL-14-13 random-normal CLL-14-13 stdv
+set CLL-14-15 random-normal CLL-14-15 stdv
+set CLL-14-16 random-normal CLL-14-16 stdv
+set CLL-14-17 random-normal CLL-14-17 stdv
+set CLL-14-18 random-normal CLL-14-18 stdv
+set CLL-14-19 random-normal CLL-14-19 stdv
+set CLL-14-20 random-normal CLL-14-20 stdv
+set CLL-14-21 random-normal CLL-14-21 stdv
+set CLL-14-22 random-normal CLL-14-22 stdv
+set CLL-14-23 random-normal CLL-14-23 stdv
+set CLL-14-24 random-normal CLL-14-24 stdv
+set CLL-14-25 random-normal CLL-14-25 stdv
+set CLL-14-26 random-normal CLL-14-26 stdv
+set CLL-14-27 random-normal CLL-14-27 stdv
+set CLL-14-28 random-normal CLL-14-28 stdv
+set CLL-14-29 random-normal CLL-14-29 stdv
+set CLL-15-0 random-normal CLL-15-0 stdv
+set CLL-15-1 random-normal CLL-15-1 stdv
+set CLL-15-2 random-normal CLL-15-2 stdv
+set CLL-15-3 random-normal CLL-15-3 stdv
+set CLL-15-4 random-normal CLL-15-4 stdv
+set CLL-15-5 random-normal CLL-15-5 stdv
+set CLL-15-6 random-normal CLL-15-6 stdv
+set CLL-15-7 random-normal CLL-15-7 stdv
+set CLL-15-8 random-normal CLL-15-8 stdv
+set CLL-15-9 random-normal CLL-15-9 stdv
+set CLL-15-10 random-normal CLL-15-10 stdv
+set CLL-15-11 random-normal CLL-15-11 stdv
+set CLL-15-12 random-normal CLL-15-12 stdv
+set CLL-15-13 random-normal CLL-15-13 stdv
+set CLL-15-14 random-normal CLL-15-14 stdv
+set CLL-15-16 random-normal CLL-15-16 stdv
+set CLL-15-17 random-normal CLL-15-17 stdv
+set CLL-15-18 random-normal CLL-15-18 stdv
+set CLL-15-19 random-normal CLL-15-19 stdv
+set CLL-15-20 random-normal CLL-15-20 stdv
+set CLL-15-21 random-normal CLL-15-21 stdv
+set CLL-15-22 random-normal CLL-15-22 stdv
+set CLL-15-23 random-normal CLL-15-23 stdv
+set CLL-15-24 random-normal CLL-15-24 stdv
+set CLL-15-25 random-normal CLL-15-25 stdv
+set CLL-15-26 random-normal CLL-15-26 stdv
+set CLL-15-27 random-normal CLL-15-27 stdv
+set CLL-15-28 random-normal CLL-15-28 stdv
+set CLL-15-29 random-normal CLL-15-29 stdv
+set CLL-16-0 random-normal CLL-16-0 stdv
+set CLL-16-1 random-normal CLL-16-1 stdv
+set CLL-16-2 random-normal CLL-16-2 stdv
+set CLL-16-3 random-normal CLL-16-3 stdv
+set CLL-16-4 random-normal CLL-16-4 stdv
+set CLL-16-5 random-normal CLL-16-5 stdv
+set CLL-16-6 random-normal CLL-16-6 stdv
+set CLL-16-7 random-normal CLL-16-7 stdv
+set CLL-16-8 random-normal CLL-16-8 stdv
+set CLL-16-9 random-normal CLL-16-9 stdv
+set CLL-16-10 random-normal CLL-16-10 stdv
+set CLL-16-11 random-normal CLL-16-11 stdv
+set CLL-16-12 random-normal CLL-16-12 stdv
+set CLL-16-13 random-normal CLL-16-13 stdv
+set CLL-16-14 random-normal CLL-16-14 stdv
+set CLL-16-15 random-normal CLL-16-15 stdv
+set CLL-16-17 random-normal CLL-16-17 stdv
+set CLL-16-18 random-normal CLL-16-18 stdv
+set CLL-16-19 random-normal CLL-16-19 stdv
+set CLL-16-20 random-normal CLL-16-20 stdv
+set CLL-16-21 random-normal CLL-16-21 stdv
+set CLL-16-22 random-normal CLL-16-22 stdv
+set CLL-16-23 random-normal CLL-16-23 stdv
+set CLL-16-24 random-normal CLL-16-24 stdv
+set CLL-16-25 random-normal CLL-16-25 stdv
+set CLL-16-26 random-normal CLL-16-26 stdv
+set CLL-16-27 random-normal CLL-16-27 stdv
+set CLL-16-28 random-normal CLL-16-28 stdv
+set CLL-16-29 random-normal CLL-16-29 stdv
+set CLL-17-0 random-normal CLL-17-0 stdv
+set CLL-17-1 random-normal CLL-17-1 stdv
+set CLL-17-2 random-normal CLL-17-2 stdv
+set CLL-17-3 random-normal CLL-17-3 stdv
+set CLL-17-4 random-normal CLL-17-4 stdv
+set CLL-17-5 random-normal CLL-17-5 stdv
+set CLL-17-6 random-normal CLL-17-6 stdv
+set CLL-17-7 random-normal CLL-17-7 stdv
+set CLL-17-8 random-normal CLL-17-8 stdv
+set CLL-17-9 random-normal CLL-17-9 stdv
+set CLL-17-10 random-normal CLL-17-10 stdv
+set CLL-17-11 random-normal CLL-17-11 stdv
+set CLL-17-12 random-normal CLL-17-12 stdv
+set CLL-17-13 random-normal CLL-17-13 stdv
+set CLL-17-14 random-normal CLL-17-14 stdv
+set CLL-17-15 random-normal CLL-17-15 stdv
+set CLL-17-16 random-normal CLL-17-16 stdv
+set CLL-17-18 random-normal CLL-17-18 stdv
+set CLL-17-19 random-normal CLL-17-19 stdv
+set CLL-17-20 random-normal CLL-17-20 stdv
+set CLL-17-21 random-normal CLL-17-21 stdv
+set CLL-17-22 random-normal CLL-17-22 stdv
+set CLL-17-23 random-normal CLL-17-23 stdv
+set CLL-17-24 random-normal CLL-17-24 stdv
+set CLL-17-25 random-normal CLL-17-25 stdv
+set CLL-17-26 random-normal CLL-17-26 stdv
+set CLL-17-27 random-normal CLL-17-27 stdv
+set CLL-17-28 random-normal CLL-17-28 stdv
+set CLL-17-29 random-normal CLL-17-29 stdv
+set CLL-18-0 random-normal CLL-18-0 stdv
+set CLL-18-1 random-normal CLL-18-1 stdv
+set CLL-18-2 random-normal CLL-18-2 stdv
+set CLL-18-3 random-normal CLL-18-3 stdv
+set CLL-18-4 random-normal CLL-18-4 stdv
+set CLL-18-5 random-normal CLL-18-5 stdv
+set CLL-18-6 random-normal CLL-18-6 stdv
+set CLL-18-7 random-normal CLL-18-7 stdv
+set CLL-18-8 random-normal CLL-18-8 stdv
+set CLL-18-9 random-normal CLL-18-9 stdv
+set CLL-18-10 random-normal CLL-18-10 stdv
+set CLL-18-11 random-normal CLL-18-11 stdv
+set CLL-18-12 random-normal CLL-18-12 stdv
+set CLL-18-13 random-normal CLL-18-13 stdv
+set CLL-18-14 random-normal CLL-18-14 stdv
+set CLL-18-15 random-normal CLL-18-15 stdv
+set CLL-18-16 random-normal CLL-18-16 stdv
+set CLL-18-17 random-normal CLL-18-17 stdv
+set CLL-18-19 random-normal CLL-18-19 stdv
+set CLL-18-20 random-normal CLL-18-20 stdv
+set CLL-18-21 random-normal CLL-18-21 stdv
+set CLL-18-22 random-normal CLL-18-22 stdv
+set CLL-18-23 random-normal CLL-18-23 stdv
+set CLL-18-24 random-normal CLL-18-24 stdv
+set CLL-18-25 random-normal CLL-18-25 stdv
+set CLL-18-26 random-normal CLL-18-26 stdv
+set CLL-18-27 random-normal CLL-18-27 stdv
+set CLL-18-28 random-normal CLL-18-28 stdv
+set CLL-18-29 random-normal CLL-18-29 stdv
+set CLL-19-0 random-normal CLL-19-0 stdv
+set CLL-19-1 random-normal CLL-19-1 stdv
+set CLL-19-2 random-normal CLL-19-2 stdv
+set CLL-19-3 random-normal CLL-19-3 stdv
+set CLL-19-4 random-normal CLL-19-4 stdv
+set CLL-19-5 random-normal CLL-19-5 stdv
+set CLL-19-6 random-normal CLL-19-6 stdv
+set CLL-19-7 random-normal CLL-19-7 stdv
+set CLL-19-8 random-normal CLL-19-8 stdv
+set CLL-19-9 random-normal CLL-19-9 stdv
+set CLL-19-10 random-normal CLL-19-10 stdv
+set CLL-19-11 random-normal CLL-19-11 stdv
+set CLL-19-12 random-normal CLL-19-12 stdv
+set CLL-19-13 random-normal CLL-19-13 stdv
+set CLL-19-14 random-normal CLL-19-14 stdv
+set CLL-19-15 random-normal CLL-19-15 stdv
+set CLL-19-16 random-normal CLL-19-16 stdv
+set CLL-19-17 random-normal CLL-19-17 stdv
+set CLL-19-18 random-normal CLL-19-18 stdv
+set CLL-19-20 random-normal CLL-19-20 stdv
+set CLL-19-21 random-normal CLL-19-21 stdv
+set CLL-19-22 random-normal CLL-19-22 stdv
+set CLL-19-23 random-normal CLL-19-23 stdv
+set CLL-19-24 random-normal CLL-19-24 stdv
+set CLL-19-25 random-normal CLL-19-25 stdv
+set CLL-19-26 random-normal CLL-19-26 stdv
+set CLL-19-27 random-normal CLL-19-27 stdv
+set CLL-19-28 random-normal CLL-19-28 stdv
+set CLL-19-29 random-normal CLL-19-29 stdv
+set CLL-20-0 random-normal CLL-20-0 stdv
+set CLL-20-1 random-normal CLL-20-1 stdv
+set CLL-20-2 random-normal CLL-20-2 stdv
+set CLL-20-3 random-normal CLL-20-3 stdv
+set CLL-20-4 random-normal CLL-20-4 stdv
+set CLL-20-5 random-normal CLL-20-5 stdv
+set CLL-20-6 random-normal CLL-20-6 stdv
+set CLL-20-7 random-normal CLL-20-7 stdv
+set CLL-20-8 random-normal CLL-20-8 stdv
+set CLL-20-9 random-normal CLL-20-9 stdv
+set CLL-20-10 random-normal CLL-20-10 stdv
+set CLL-20-11 random-normal CLL-20-11 stdv
+set CLL-20-12 random-normal CLL-20-12 stdv
+set CLL-20-13 random-normal CLL-20-13 stdv
+set CLL-20-14 random-normal CLL-20-14 stdv
+set CLL-20-15 random-normal CLL-20-15 stdv
+set CLL-20-16 random-normal CLL-20-16 stdv
+set CLL-20-17 random-normal CLL-20-17 stdv
+set CLL-20-18 random-normal CLL-20-18 stdv
+set CLL-20-19 random-normal CLL-20-19 stdv
+set CLL-20-21 random-normal CLL-20-21 stdv
+set CLL-20-22 random-normal CLL-20-22 stdv
+set CLL-20-23 random-normal CLL-20-23 stdv
+set CLL-20-24 random-normal CLL-20-24 stdv
+set CLL-20-25 random-normal CLL-20-25 stdv
+set CLL-20-26 random-normal CLL-20-26 stdv
+set CLL-20-27 random-normal CLL-20-27 stdv
+set CLL-20-28 random-normal CLL-20-28 stdv
+set CLL-20-29 random-normal CLL-20-29 stdv
+set CLL-21-0 random-normal CLL-21-0 stdv
+set CLL-21-1 random-normal CLL-21-1 stdv
+set CLL-21-2 random-normal CLL-21-2 stdv
+set CLL-21-3 random-normal CLL-21-3 stdv
+set CLL-21-4 random-normal CLL-21-4 stdv
+set CLL-21-5 random-normal CLL-21-5 stdv
+set CLL-21-6 random-normal CLL-21-6 stdv
+set CLL-21-7 random-normal CLL-21-7 stdv
+set CLL-21-8 random-normal CLL-21-8 stdv
+set CLL-21-9 random-normal CLL-21-9 stdv
+set CLL-21-10 random-normal CLL-21-10 stdv
+set CLL-21-11 random-normal CLL-21-11 stdv
+set CLL-21-12 random-normal CLL-21-12 stdv
+set CLL-21-13 random-normal CLL-21-13 stdv
+set CLL-21-14 random-normal CLL-21-14 stdv
+set CLL-21-15 random-normal CLL-21-15 stdv
+set CLL-21-16 random-normal CLL-21-16 stdv
+set CLL-21-17 random-normal CLL-21-17 stdv
+set CLL-21-18 random-normal CLL-21-18 stdv
+set CLL-21-19 random-normal CLL-21-19 stdv
+set CLL-21-20 random-normal CLL-21-20 stdv
+set CLL-21-22 random-normal CLL-21-22 stdv
+set CLL-21-23 random-normal CLL-21-23 stdv
+set CLL-21-24 random-normal CLL-21-24 stdv
+set CLL-21-25 random-normal CLL-21-25 stdv
+set CLL-21-26 random-normal CLL-21-26 stdv
+set CLL-21-27 random-normal CLL-21-27 stdv
+set CLL-21-28 random-normal CLL-21-28 stdv
+set CLL-21-29 random-normal CLL-21-29 stdv
+set CLL-22-0 random-normal CLL-22-0 stdv
+set CLL-22-1 random-normal CLL-22-1 stdv
+set CLL-22-2 random-normal CLL-22-2 stdv
+set CLL-22-3 random-normal CLL-22-3 stdv
+set CLL-22-4 random-normal CLL-22-4 stdv
+set CLL-22-5 random-normal CLL-22-5 stdv
+set CLL-22-6 random-normal CLL-22-6 stdv
+set CLL-22-7 random-normal CLL-22-7 stdv
+set CLL-22-8 random-normal CLL-22-8 stdv
+set CLL-22-9 random-normal CLL-22-9 stdv
+set CLL-22-10 random-normal CLL-22-10 stdv
+set CLL-22-11 random-normal CLL-22-11 stdv
+set CLL-22-12 random-normal CLL-22-12 stdv
+set CLL-22-13 random-normal CLL-22-13 stdv
+set CLL-22-14 random-normal CLL-22-14 stdv
+set CLL-22-15 random-normal CLL-22-15 stdv
+set CLL-22-16 random-normal CLL-22-16 stdv
+set CLL-22-17 random-normal CLL-22-17 stdv
+set CLL-22-18 random-normal CLL-22-18 stdv
+set CLL-22-19 random-normal CLL-22-19 stdv
+set CLL-22-20 random-normal CLL-22-20 stdv
+set CLL-22-21 random-normal CLL-22-21 stdv
+set CLL-22-23 random-normal CLL-22-23 stdv
+set CLL-22-24 random-normal CLL-22-24 stdv
+set CLL-22-25 random-normal CLL-22-25 stdv
+set CLL-22-26 random-normal CLL-22-26 stdv
+set CLL-22-27 random-normal CLL-22-27 stdv
+set CLL-22-28 random-normal CLL-22-28 stdv
+set CLL-22-29 random-normal CLL-22-29 stdv
+set CLL-23-0 random-normal CLL-23-0 stdv
+set CLL-23-1 random-normal CLL-23-1 stdv
+set CLL-23-2 random-normal CLL-23-2 stdv
+set CLL-23-3 random-normal CLL-23-3 stdv
+set CLL-23-4 random-normal CLL-23-4 stdv
+set CLL-23-5 random-normal CLL-23-5 stdv
+set CLL-23-6 random-normal CLL-23-6 stdv
+set CLL-23-7 random-normal CLL-23-7 stdv
+set CLL-23-8 random-normal CLL-23-8 stdv
+set CLL-23-9 random-normal CLL-23-9 stdv
+set CLL-23-10 random-normal CLL-23-10 stdv
+set CLL-23-11 random-normal CLL-23-11 stdv
+set CLL-23-12 random-normal CLL-23-12 stdv
+set CLL-23-13 random-normal CLL-23-13 stdv
+set CLL-23-14 random-normal CLL-23-14 stdv
+set CLL-23-15 random-normal CLL-23-15 stdv
+set CLL-23-16 random-normal CLL-23-16 stdv
+set CLL-23-17 random-normal CLL-23-17 stdv
+set CLL-23-18 random-normal CLL-23-18 stdv
+set CLL-23-19 random-normal CLL-23-19 stdv
+set CLL-23-20 random-normal CLL-23-20 stdv
+set CLL-23-21 random-normal CLL-23-21 stdv
+set CLL-23-22 random-normal CLL-23-22 stdv
+set CLL-23-24 random-normal CLL-23-24 stdv
+set CLL-23-25 random-normal CLL-23-25 stdv
+set CLL-23-26 random-normal CLL-23-26 stdv
+set CLL-23-27 random-normal CLL-23-27 stdv
+set CLL-23-28 random-normal CLL-23-28 stdv
+set CLL-23-29 random-normal CLL-23-29 stdv
+set CLL-24-0 random-normal CLL-24-0 stdv
+set CLL-24-1 random-normal CLL-24-1 stdv
+set CLL-24-2 random-normal CLL-24-2 stdv
+set CLL-24-3 random-normal CLL-24-3 stdv
+set CLL-24-4 random-normal CLL-24-4 stdv
+set CLL-24-5 random-normal CLL-24-5 stdv
+set CLL-24-6 random-normal CLL-24-6 stdv
+set CLL-24-7 random-normal CLL-24-7 stdv
+set CLL-24-8 random-normal CLL-24-8 stdv
+set CLL-24-9 random-normal CLL-24-9 stdv
+set CLL-24-10 random-normal CLL-24-10 stdv
+set CLL-24-11 random-normal CLL-24-11 stdv
+set CLL-24-12 random-normal CLL-24-12 stdv
+set CLL-24-13 random-normal CLL-24-13 stdv
+set CLL-24-14 random-normal CLL-24-14 stdv
+set CLL-24-15 random-normal CLL-24-15 stdv
+set CLL-24-16 random-normal CLL-24-16 stdv
+set CLL-24-17 random-normal CLL-24-17 stdv
+set CLL-24-18 random-normal CLL-24-18 stdv
+set CLL-24-19 random-normal CLL-24-19 stdv
+set CLL-24-20 random-normal CLL-24-20 stdv
+set CLL-24-21 random-normal CLL-24-21 stdv
+set CLL-24-22 random-normal CLL-24-22 stdv
+set CLL-24-23 random-normal CLL-24-23 stdv
+set CLL-24-25 random-normal CLL-24-25 stdv
+set CLL-24-26 random-normal CLL-24-26 stdv
+set CLL-24-27 random-normal CLL-24-27 stdv
+set CLL-24-28 random-normal CLL-24-28 stdv
+set CLL-24-29 random-normal CLL-24-29 stdv
+set CLL-25-0 random-normal CLL-25-0 stdv
+set CLL-25-1 random-normal CLL-25-1 stdv
+set CLL-25-2 random-normal CLL-25-2 stdv
+set CLL-25-3 random-normal CLL-25-3 stdv
+set CLL-25-4 random-normal CLL-25-4 stdv
+set CLL-25-5 random-normal CLL-25-5 stdv
+set CLL-25-6 random-normal CLL-25-6 stdv
+set CLL-25-7 random-normal CLL-25-7 stdv
+set CLL-25-8 random-normal CLL-25-8 stdv
+set CLL-25-9 random-normal CLL-25-9 stdv
+set CLL-25-10 random-normal CLL-25-10 stdv
+set CLL-25-11 random-normal CLL-25-11 stdv
+set CLL-25-12 random-normal CLL-25-12 stdv
+set CLL-25-13 random-normal CLL-25-13 stdv
+set CLL-25-14 random-normal CLL-25-14 stdv
+set CLL-25-15 random-normal CLL-25-15 stdv
+set CLL-25-16 random-normal CLL-25-16 stdv
+set CLL-25-17 random-normal CLL-25-17 stdv
+set CLL-25-18 random-normal CLL-25-18 stdv
+set CLL-25-19 random-normal CLL-25-19 stdv
+set CLL-25-20 random-normal CLL-25-20 stdv
+set CLL-25-21 random-normal CLL-25-21 stdv
+set CLL-25-22 random-normal CLL-25-22 stdv
+set CLL-25-23 random-normal CLL-25-23 stdv
+set CLL-25-24 random-normal CLL-25-24 stdv
+set CLL-25-26 random-normal CLL-25-26 stdv
+set CLL-25-27 random-normal CLL-25-27 stdv
+set CLL-25-28 random-normal CLL-25-28 stdv
+set CLL-25-29 random-normal CLL-25-29 stdv
+set CLL-26-0 random-normal CLL-26-0 stdv
+set CLL-26-1 random-normal CLL-26-1 stdv
+set CLL-26-2 random-normal CLL-26-2 stdv
+set CLL-26-3 random-normal CLL-26-3 stdv
+set CLL-26-4 random-normal CLL-26-4 stdv
+set CLL-26-5 random-normal CLL-26-5 stdv
+set CLL-26-6 random-normal CLL-26-6 stdv
+set CLL-26-7 random-normal CLL-26-7 stdv
+set CLL-26-8 random-normal CLL-26-8 stdv
+set CLL-26-9 random-normal CLL-26-9 stdv
+set CLL-26-10 random-normal CLL-26-10 stdv
+set CLL-26-11 random-normal CLL-26-11 stdv
+set CLL-26-12 random-normal CLL-26-12 stdv
+set CLL-26-13 random-normal CLL-26-13 stdv
+set CLL-26-14 random-normal CLL-26-14 stdv
+set CLL-26-15 random-normal CLL-26-15 stdv
+set CLL-26-16 random-normal CLL-26-16 stdv
+set CLL-26-17 random-normal CLL-26-17 stdv
+set CLL-26-18 random-normal CLL-26-18 stdv
+set CLL-26-19 random-normal CLL-26-19 stdv
+set CLL-26-20 random-normal CLL-26-20 stdv
+set CLL-26-21 random-normal CLL-26-21 stdv
+set CLL-26-22 random-normal CLL-26-22 stdv
+set CLL-26-23 random-normal CLL-26-23 stdv
+set CLL-26-24 random-normal CLL-26-24 stdv
+set CLL-26-25 random-normal CLL-26-25 stdv
+set CLL-26-27 random-normal CLL-26-27 stdv
+set CLL-26-28 random-normal CLL-26-28 stdv
+set CLL-26-29 random-normal CLL-26-29 stdv
+set CLL-27-0 random-normal CLL-27-0 stdv
+set CLL-27-1 random-normal CLL-27-1 stdv
+set CLL-27-2 random-normal CLL-27-2 stdv
+set CLL-27-3 random-normal CLL-27-3 stdv
+set CLL-27-4 random-normal CLL-27-4 stdv
+set CLL-27-5 random-normal CLL-27-5 stdv
+set CLL-27-6 random-normal CLL-27-6 stdv
+set CLL-27-7 random-normal CLL-27-7 stdv
+set CLL-27-8 random-normal CLL-27-8 stdv
+set CLL-27-9 random-normal CLL-27-9 stdv
+set CLL-27-10 random-normal CLL-27-10 stdv
+set CLL-27-11 random-normal CLL-27-11 stdv
+set CLL-27-12 random-normal CLL-27-12 stdv
+set CLL-27-13 random-normal CLL-27-13 stdv
+set CLL-27-14 random-normal CLL-27-14 stdv
+set CLL-27-15 random-normal CLL-27-15 stdv
+set CLL-27-16 random-normal CLL-27-16 stdv
+set CLL-27-17 random-normal CLL-27-17 stdv
+set CLL-27-18 random-normal CLL-27-18 stdv
+set CLL-27-19 random-normal CLL-27-19 stdv
+set CLL-27-20 random-normal CLL-27-20 stdv
+set CLL-27-21 random-normal CLL-27-21 stdv
+set CLL-27-22 random-normal CLL-27-22 stdv
+set CLL-27-23 random-normal CLL-27-23 stdv
+set CLL-27-24 random-normal CLL-27-24 stdv
+set CLL-27-25 random-normal CLL-27-25 stdv
+set CLL-27-26 random-normal CLL-27-26 stdv
+set CLL-27-28 random-normal CLL-27-28 stdv
+set CLL-27-29 random-normal CLL-27-29 stdv
+set CLL-28-0 random-normal CLL-28-0 stdv
+set CLL-28-1 random-normal CLL-28-1 stdv
+set CLL-28-2 random-normal CLL-28-2 stdv
+set CLL-28-3 random-normal CLL-28-3 stdv
+set CLL-28-4 random-normal CLL-28-4 stdv
+set CLL-28-5 random-normal CLL-28-5 stdv
+set CLL-28-6 random-normal CLL-28-6 stdv
+set CLL-28-7 random-normal CLL-28-7 stdv
+set CLL-28-8 random-normal CLL-28-8 stdv
+set CLL-28-9 random-normal CLL-28-9 stdv
+set CLL-28-10 random-normal CLL-28-10 stdv
+set CLL-28-11 random-normal CLL-28-11 stdv
+set CLL-28-12 random-normal CLL-28-12 stdv
+set CLL-28-13 random-normal CLL-28-13 stdv
+set CLL-28-14 random-normal CLL-28-14 stdv
+set CLL-28-15 random-normal CLL-28-15 stdv
+set CLL-28-16 random-normal CLL-28-16 stdv
+set CLL-28-17 random-normal CLL-28-17 stdv
+set CLL-28-18 random-normal CLL-28-18 stdv
+set CLL-28-19 random-normal CLL-28-19 stdv
+set CLL-28-20 random-normal CLL-28-20 stdv
+set CLL-28-21 random-normal CLL-28-21 stdv
+set CLL-28-22 random-normal CLL-28-22 stdv
+set CLL-28-23 random-normal CLL-28-23 stdv
+set CLL-28-24 random-normal CLL-28-24 stdv
+set CLL-28-25 random-normal CLL-28-25 stdv
+set CLL-28-26 random-normal CLL-28-26 stdv
+set CLL-28-27 random-normal CLL-28-27 stdv
+set CLL-28-29 random-normal CLL-28-29 stdv
+set CLL-29-0 random-normal CLL-29-0 stdv
+set CLL-29-1 random-normal CLL-29-1 stdv
+set CLL-29-2 random-normal CLL-29-2 stdv
+set CLL-29-3 random-normal CLL-29-3 stdv
+set CLL-29-4 random-normal CLL-29-4 stdv
+set CLL-29-5 random-normal CLL-29-5 stdv
+set CLL-29-6 random-normal CLL-29-6 stdv
+set CLL-29-7 random-normal CLL-29-7 stdv
+set CLL-29-8 random-normal CLL-29-8 stdv
+set CLL-29-9 random-normal CLL-29-9 stdv
+set CLL-29-10 random-normal CLL-29-10 stdv
+set CLL-29-11 random-normal CLL-29-11 stdv
+set CLL-29-12 random-normal CLL-29-12 stdv
+set CLL-29-13 random-normal CLL-29-13 stdv
+set CLL-29-14 random-normal CLL-29-14 stdv
+set CLL-29-15 random-normal CLL-29-15 stdv
+set CLL-29-16 random-normal CLL-29-16 stdv
+set CLL-29-17 random-normal CLL-29-17 stdv
+set CLL-29-18 random-normal CLL-29-18 stdv
+set CLL-29-19 random-normal CLL-29-19 stdv
+set CLL-29-20 random-normal CLL-29-20 stdv
+set CLL-29-21 random-normal CLL-29-21 stdv
+set CLL-29-22 random-normal CLL-29-22 stdv
+set CLL-29-23 random-normal CLL-29-23 stdv
+set CLL-29-24 random-normal CLL-29-24 stdv
+set CLL-29-25 random-normal CLL-29-25 stdv
+set CLL-29-26 random-normal CLL-29-26 stdv
+set CLL-29-27 random-normal CLL-29-27 stdv
+set CLL-29-28 random-normal CLL-29-28 stdv

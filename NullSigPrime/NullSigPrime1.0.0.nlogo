@@ -19,6 +19,7 @@ breed [energies energy]
 
 globals [
   deaths
+  soft-reset-flag
 ]
 
 bullets-own [
@@ -334,6 +335,7 @@ to setup-complete
   set-default-shape bullets "dot"
   set-default-shape energies "electric outlet"
   set-default-shape robots "tank-robot"
+  set soft-reset-flag false
   repeat 16 [
     spawn-energy
   ]
@@ -556,38 +558,51 @@ to-report robots? [x]
 end
   
 to go
-  ask robots [
-    robot-move
-    energize
-    if shoot? and shooter-cooldown >= shot-cooldown [
-      shoot
+  ifelse soft-reset-flag [
+    set soft-reset-flag false
+    repeat 4 [
+      ask robots [
+        spawn-robot
+      ]
     ]
-    pu
-    starve
-    set age age + 1
-    if fuel > reproduction-threshold and
-    age > reproductive-age [
-      spawn-robot
+    ask robots [
+      set fuel 1000
     ]
   ]
-  if ticks mod (10 - energy-abundance) = 0 [
-    spawn-energy
+  [
+    ask robots [
+      robot-move
+      energize
+      if shoot? and shooter-cooldown >= shot-cooldown [
+        shoot
+      ]
+      pu
+      starve
+      set age age + 1
+      if fuel > reproduction-threshold and
+      age > reproductive-age [
+        spawn-robot
+      ]
+    ]
+    if ticks mod (10 - energy-abundance) = 0 [
+      spawn-energy
+    ]
+    update-complete
+    label-robots
+    if deaths / (ticks + 1) > 10 ^ reset-threshold [
+      setup-complete
+    ]
+    if count robots = 0 [
+      setup-complete
+    ]
+    if (round (ticks + shot-cooldown / 2)) mod shot-cooldown = 0 [
+      cd
+    ]
+    wait 0.01
+    tick
   ]
-  update-complete
-  label-robots
-  if deaths / (ticks + 1) > 10 ^ reset-threshold [
-    setup-complete
-  ]
-  if count robots = 0 [
-    setup-complete
-  ]
-  if (round (ticks + shot-cooldown / 2)) mod shot-cooldown = 0 [
-    cd
-  ]
-  wait 0.01
-  tick
 end
-
+  
 to label-robots
   ask robots [set label round fuel]
   ask bullets [ set label ""]
@@ -642,11 +657,15 @@ end
 
 to starve
   let x (abs r-tread + abs l-tread) + 0.0000000001
-  set fuel fuel - (x + 1 / (x + 1)) 
+  set fuel fuel - (x + 1 / (x + 1)) * speed-cost-coefficient 
   ;set fuel fuel - 10
   if fuel <= 0 [
-    set deaths deaths + 1
-    die
+    ifelse count robots = 1 [
+      set soft-reset-flag true
+    ] [
+      set deaths deaths + 1
+      die
+    ]
   ]
 end
 
@@ -667,11 +686,13 @@ end
 to collide
   let x 0
   ask one-of enemies-hit [
-    ask bullets with [owner = [who] of myself] [
-      die
+    ifelse count robots = 1 [
+      set soft-reset-flag true
+    ] [
+      ask bullets with [owner = [who] of myself] [
+        die
+      ]
     ]
-    set x fuel
-    die
   ]
   if any? robots with [who = [owner] of myself] [
     ask robot owner [
@@ -986,8 +1007,8 @@ GRAPHICS-WINDOW
 1
 1
 0
-0
-0
+1
+1
 1
 -19
 19
@@ -1068,7 +1089,7 @@ gene-variation
 gene-variation
 0.1
 10
-1.9
+0.5
 0.1
 1
 NIL
@@ -1099,13 +1120,13 @@ round mean [ fuel ] of robots
 SLIDER
 815
 29
-981
+1007
 62
-speed-decay
-speed-decay
+speed-cost-coefficient
+speed-cost-coefficient
 0
-1
-1
+10
+0.9605
 .0001
 1
 NIL
@@ -1131,7 +1152,7 @@ bullet-cost
 bullet-cost
 0
 100
-48
+100
 1
 1
 NIL
@@ -1144,9 +1165,9 @@ SLIDER
 161
 shot-cooldown
 shot-cooldown
-0
+1
 100
-50
+1
 1
 1
 NIL
@@ -1161,7 +1182,7 @@ reset-threshold
 reset-threshold
 -2
 2
--1.01
+2
 .01
 1
 NIL
@@ -1187,7 +1208,7 @@ reproduction-threshold
 reproduction-threshold
 0
 2000
-51
+2000
 1
 1
 NIL
@@ -1202,7 +1223,7 @@ reproductive-age
 reproductive-age
 0
 500
-207
+121
 1
 1
 NIL
@@ -1217,7 +1238,7 @@ energy-abundance
 energy-abundance
 0
 9
-0
+9
 1
 1
 NIL
@@ -1619,7 +1640,7 @@ Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 
 @#$#@#$#@
-NetLogo 5.0
+NetLogo 5.0.4
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
